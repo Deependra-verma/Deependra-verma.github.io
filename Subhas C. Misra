@@ -1,0 +1,776 @@
+
+A<html>
+<head>
+<title>Homepage of Professor Subhas C. Misra</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="description" content="Professor Subhas C. Misra, Indian Institute of Technology Kanpur">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="layout.css" rel="stylesheet" type="text/css"></script>
+
+<!--[if lt IE 7]>
+	<link href="ie_style.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #f8c471;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #dc7633;
+}
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div align="center" style="background-color:lightblue">
+
+</div>
+<!--<div id="extwaiimpotscp" style="display:none" v="{d3db" f="ZTJRelpHSXlaamc1TFdNeFpqRXROR015WVMxaU1ETXhMV1JsTmpnMll6bGxNak16TTMwPQ==" q="8c093834" c="204.2" i="211.2" u="23.30" s="19081419" w="false" m="BMe=" vn="0ublk"></div></div>-->
+    
+<!-- content -->
+	<div class="container" id="content" >
+	<br>
+	<h2 align="center"> <font color="#536dfe">WELCOME TO MY HOMEPAGE</font></h2>
+	<hr class="container" style="align-self: center;">
+		<div class="container">
+<!-- main-banner-small begin -->
+			<div class="main-banner-small" align="center">
+			  <div class="inner">
+				<br><br>
+<table width="100%" border="0">
+ <tbody><tr>
+ <td width="18%" rowspan="0"> <img alt="" src="scm-picture.jpg" align="left" width="208px"  height="224.9px" class="img1"/> </td>
+ <td rowspan="0" width="60%" align="left"> <font size="+3"><b>Professor Subhas C. Misra</b></font><br><span class="bodytext0"><font size="3">PhD (Carleton U, Canada), PDF (Harvard University, USA)<br>FIET (U.K.), C.ENG (India), FIEI (India), FIETE (India), FRSPH (U.K.), FRSA (U.K.), FBCS (U.K.)<br>Department of Industrial and Management Engineering<br>Indian Institute of Technology<br>Kanpur – 208016<br>Uttar Pradesh, India<br>Tel.: (0512)6797430<br>Email: subhasm@iitk.ac.in
+</font></span></td>
+ </tr>
+ </tbody></table>
+
+</div>
+</div>	
+<br><br>
+<br><br>
+			<!-- Editing starts Here-->
+
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="jquery.js"></script>
+  <script src="bootstrap.js"></script>
+  <style type="text/css">
+.table>tbody>tr>td,
+.table>tbody>tr>th {
+  border-top: none;
+}
+
+
+
+<!-- Edits for resize of dropdown -->
+.dropdown-menu {
+  width: 100%; 
+}
+
+.btn{
+ width: 100%;
+ text-align: left;
+}
+
+.button {
+  background-color:  #f8c471;
+  border: none;
+  border-color: black;
+  color: black;
+  height:60px;
+  width:122px;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color:  #dc7633;
+  }
+  
+ .button1 {
+  background-color:  #f8c471;
+  border: 1px solid black;
+  border-color: black;
+  color: black;
+  height:50px;
+  width:122px;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color:  #dc7633;
+  }
+  
+ hr{ 
+  height: 1px;
+  color: #536dfe;
+  background-color:#536dfe;
+  border: none;
+}
+</style>
+</div>
+</div>
+<br>
+<div class="container" align="center">
+<table width="90%" border="0.5">
+ <tbody><tr>
+	 <td width="10%" rowspan="0"><a href="#RESEARCH_INTERESTS"><button class="button">RESEARCH INTERESTS</button></a> <td>
+	 <td width="10%" rowspan="0"><a href="#AWARDS"><button class="button">AWARDS</button></a> <td>
+	 <td width="10%" rowspan="0"><a href="#LECTURES"><button class="button">DISTINGUISHED LECTURES</button></a> <td>
+	 <td width="10%" rowspan="0"><a href="#EDUCATION"><button class="button">EDUCATION</button></a> <td>
+	 <td width="10%" rowspan="0"><a href="#EXPERIENCE"><button class="button">EXPERIENCE</button></a> <td>
+	 <td width="10%" rowspan="0"><a href="#TEACHING"><button class="button">TEACHING</button></a> <td> 
+	 <td width="10%" rowspan="0"><a href="#GRANTS"><button class="button">RESEARCH GRANTS</button></a> <td>
+	 <td width="10%" rowspan="0"><a href="#GROUP"><button class="button">RESEARCH GROUP</button></a> <td> 
+	 <td width="12%" rowspan="0"><a href="#ADMINISTRATIVE"><button class="button">ADMINISTRATIVE ACTIVITIES</button></a> <td>
+	 <td width="8%" rowspan="0"><a href="#PUBLICATIONS"><button class="button">PUBLICATIONS</button></a></td>
+	  </tr>
+ </tbody></table>
+</div>
+
+
+<span class="bodytext0">
+<div class="container" >
+<!-- main-banner-small begin -->
+	<div class="main-banner-small" align="left">
+	  <div class="inner">
+		<a id="RESEARCH_INTERESTS"></a>
+		<br><br>
+		<h4 align="left"><font color="#536dfe"><b>RESEARCH INTERESTS</b></font></h4>
+		<hr>
+		<p>
+			<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Analytics, Operations, Supply Chain and IT Management
+                                <li> Information Systems
+                                <li> Project Management
+				<li> Business Process Management
+				<li> Change and Risk management
+			</ul>
+			</font>
+		</p>
+		<a id="AWARDS"></a>
+		<br><br>
+		<h4 align="left"><font color="#536dfe"><b>AWARDS/HONOURS</b></font></h4>
+		<hr>
+		<div class="container">
+		<table width="100%">
+		 <tbody><tr>
+			 <td width="10%" rowspan="0"><a href="#FELLOWSHIPS"><button class="button1">FELLOWSHIPS</button></a> <td>
+			 <td width="10%" rowspan="0"><a href="#INTERNATIONAL"><button class="button1">INTERNATIONAL AWARDS</button></a> <td>
+			 <td width="10%" rowspan="0"><a href="#NATIONAL"><button class="button1">NATIONAL AWARDS</button></a> <td>
+			 <td width="10%" rowspan="0"><a href="#BEST_PAPER"><button class="button1">BEST PAPER AWARDS</button></a> <td>
+			 <td width="10%" rowspan="0"><a href="#RECOGNITIONS"><button class="button1">RECOGNITIONS FROM IIT KANPUR</button></a> <td>
+			 <td width="10%" rowspan="0"><a href="#JOURNAL"><button class="button1">JOURNAL EDITORSHIP</button></a> <td> 
+			 <td width="10%" rowspan="0"><a href="#CONFERENCE"><button class="button1">CONFERENCE CHAIRING</button></a> <td>
+			  </tr>
+		 </tbody></table>
+		</div>
+		<p>
+		<a id="FELLOWSHIPS"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>FELLOWSHIPS</u></font></h4>
+		<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Elected Fellow, Institution of Engineering and Technology, U.K., 2018.
+				<li> Elected Fellow, British Computer Society, London, 2019.
+				<li> Elected Fellow, Royal Society of Arts, Manufactures and Commerce, London, 2019.
+				<li> Elected Fellow, Royal Society of Public Health, London, 2019 in recognition of his contribution in Healthcare Technology Management.
+				<li> Elected Fellow, Institution of Engineers, India, 2018. 
+				<li> Elected Fellow, Institution of Electronics and Telecommunications Engineers, New Delhi, 2018.
+			</ul>
+		</font>
+		<a id="INTERNATIONAL"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>INTERNATIONAL AWARDS/DISTINCTIONS</u></font></h4>
+		<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Dr. Subhas Misra’s paper has been listed as one of the popular articles in IEEE Transactions on Cloud Computing.
+				<li> Adviser, Indo Canada Education Council, 2015-2020.
+				<li> Dr. Misra’s paper on Adoption of Cloud Computing and Modelling Return on Investment, <b><i>Mathematical and Computer Modelling</i></b>, Elsevier, 2011 was included in “Top 25 Hottest Papers” (published by Science Direct).
+				<li> His paper on identification of important success factors in adopting agile software development in <b><i>Journal of Systems and Software</i></b>, Elsevier was rated as one of “Top 25 Hottest Papers” by Science Direct/Elsevier in  2009 – 2010.
+				<li> "Research Excellence Award”, World Congress, World Comp 2008, USA.
+				<li> “Achievement Award” presented at the 2007 World Congress (USA) for  valuable research contributions.
+				<li> Recipient of the coveted NSERC Post-Doctoral Fellowship awarded by Government of Canada, 2007.
+				<li> F. C. Mittal Scholarship, Carleton University, Ottawa, Canada, 2006.
+				<li> Received the Ontario Graduate Scholarship (OGS) by Government of Ontario, Canada for 3 consecutive years during 2004-2007.
+				<li> DTS Scholarship, Carleton University, Ottawa, Canada for 3 consecutive years (2003-2006).
+				<li> Sprott Scholarship, Carleton University, Ottawa, Canada for 2 years: 2006-2007, 2003-2004.
+				<li> Article on Dr. Misra’s research credentials appeared in the ‘Carleton Now’, a newspaper in Canada on June 8, 2007.
+
+			</ul>
+		</font>
+		<a id="NATIONAL"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>NATIONAL AWARDS</u></font></h4>
+		<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Recipient of SPRINGER ICACIE Distinguished Researcher Award in Information Technology and Applications, Bhubaneswar, 2019.
+				<li> Recipient of Certificate in “Bronze” category from the Government of India in recognition of contributions towards building the Nation, 2020.
+				<li> Recipient of Sir CV Raman Outstanding Researcher Award, ICACIE, Springer, Bhubaneswar, 2018.
+				<li> Recipient of Certificate in “Bronze” category from the Government of India in recognition of contributions towards building the Nation, 2019.  
+				<li> Recognized as a Chartered Engineer by Institution of Engineers (India), 2018. 
+				<li> Recipient of Outstanding Teacher Award, MTRES, Delhi, 2018
+				<li> Recipient of Senate Citation for teaching excellence at IIT Kanpur TEN times during 2009-2018 (for securing students’ feedback rating greater than 3.5 in the scale of 4).
+                            <li> Recipient of Dr. Sarvepalli Radhakrishnan Outstanding Teachers Award, Ajmer, Rajasthan, 2017.
+                            <li> Recipient of Dr. APJ Abdul Kalam Award for Scientific Excellence, given by  Marina Labs, Chennai, 2017.
+				<li> Recipient of Award for Excellence in Research, EET CRS, Mumbai, 2017.
+				<li> Expert, Smart City Proposal, Mussoorie Dehradun Development Authority, Dehradun, India, February, 2017.
+				<li> Recipient of Outstanding Faculty Award, Centre for Advanced Research and Development, Venus International Foundation, Chennai, July 2015.
+				<li> Recipient of Young Scientist Award, Education Expo, Bangalore, 2014. 
+				<li> Recipient of the Science Aptitude and Talent Search certificate, India, 1987.
+				<li> Nominated for INAE Fellowship by Professor Damodar Acharya, former Professor and Head of Industrial and Systems Engineering and Ex-Director of IIT Kharagpur and Professor KL Chopra, Ex-Director of IIT Kharagpur.
+				<li> Article on Dr. Misra’s research credentials appeared in the Buzzing.com (<a  href="http://www.buzzingg.com/education/engineering-and-technology/dr-subhas-chandra-misra-iit-kanpur">http://www.buzzingg.com/education/engineering-and-technology/dr-subhas-chandra-misra-iit-kanpur</a>)
+			</ul>
+		</font>
+		<a id="BEST_PAPER"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>BEST PAPER AWARDS</u></font></h4>
+		<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Recipient of Best Paper Award, ICACIE, Bhubaneswar, Odisha 2018.
+				<li> Best Poster Award, XIV Annual Agricultural Science Congress, Theme Area: Engineering & IT, Innovations for Agricultural Transformations, National Agricultural Science Complex, New Delhi, Feb 20-23, 2019.
+				<li> Recipient of Best Paper Award, International Conference on Advanced Computing, Ajmer, Rajasthan, 2017.
+				<li> Best Paper Award, ASAC Conference, Technology and Operations Management, Administrative Sciences Association of Canada, Canada, June 2015.
+				<li> Best (Outstanding) Student Paper Award – Gold Medallion, 6th International Conference on Business Information Systems (BIS), Colorado, USA, 2003.
+			</ul>
+		</font>
+		<a id="RECOGNITIONS"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>RECOGNITIONS FROM IIT KANPUR</u></font></h4>
+		<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Felicitated by Academic Senate, IIT Kanpur for being elected as Fellow of British Computer Society (London), 2019; Fellow of Institution of Engineering and Technology (UK), 2018 and Fellow of Institution of Electronics and Telecommunication Engineering, New Delhi,2018.
+				<li> Felicitated by Hon’ble Director of IIT Kanpur for being elected as Fellow of British Computer Society,2019.
+				<li> Felicitated ten times by Academic Senate, IIT Kanpur for excellence in teaching.
+				<li> Inclusion of my academic achievement in Facebook of Hon’ble Director, Professor Abhay Karandikar. 
+				<li> Inclusion of my academic achievement in the Twitter, Linkdin and Facebook of IIT Kanpur.
+			</ul>
+		</font>
+		<a id="JOURNAL"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>JOURNAL EDITORSHIP</u></font></h4>
+		<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Regional Editor, International Journal of Business and Globalization, U.K.
+				<li> Editorial Board Member, International Journal of Information and Communication Tech, U.K.
+				<li> Formerly Managing Editor, International Journal of Communication Networks and Distributed Systems, U.K.
+				<li> Formerly Editorial Board Member, International Journal of Business and Systems Research, U.K.
+				<li> Formerly Associate Editor, Telecom Systems Journal, Springer.
+				<li> Formerly Editorial Board Member, Interdisciplinary Journal of Information, Knowledge and Management, USA.
+				<li> Formerly Associate Editor, Security and Communication Networks Journal, Wiley.
+				<li> Formerly Associate Editor, ICIC Express Letters (an international journal on Innovative Computing, Innovation, and Control), Japan.
+				<li> Formerly Managing Editor, International Journal of Information and Coding Theory, U.K.
+				<li> Formerly Editor, Journal on Systemics, Cybernetics, and Informatics 
+				<li> Formerly Guest Editor, Computer Communications Journal, Elsevier.
+			</ul>
+		</font>
+		<a id="CONFERENCE"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>CONFERENCE CHAIRING</u></font></h4>
+		<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Local Organising Committee Chair: IEEE International Conference on Advanced Networks and Telecommunications Networks, December 2017, Bhubaneshwar, Odisha, India.
+				<li> Technical Program Committee Chair: International Conference on Advanced Computing and Intelligent Engineering, November 2019, Bhubaneshwar Orissa, India.
+				<li> Conference Chair, International Business Conference, Michigan, USA, 2008.
+				<li> Organizing Co-Chair, International Symposium on Ad-Hoc and Ubiquitous Computing (ISAHUC 2006), Mangalore, India, December 2006.
+				<li> Session Chair, International Conference on Software Engineering Research and Practice (SERP 2007), Nevada, USA, June 2007.
+				<li> Session Chair, National Conference on Information Technology (NCIT 2007), New Delhi, India, August 2007
+				<li> Session Chair, International Conference on Software Engineering Research and Practice (SERP 2006), Nevada, USA, June 2006.
+				<li> Session Chair, International Conference on Enterprise Information Systems (ICEIS 2005), Miami, USA, May 2005.
+				<li> Session Chair, International Workshop on Security in Information Systems (WOSIS 2005), Miami, USA, May 2005.
+				<li> Session Chair, International Conference on Software Engineering Research and Practice (SERP 2005), Nevada, USA, June 2005.
+				<li> Session Chair, International Conference on Communications in Computing (CIC 2005), Nevada, USA, June 2005.
+			</ul>
+		</font>
+		</p>
+		<a id="LECTURES"></a>
+		<br><br>
+		<h4 align="left"><font color="#536dfe"><b>DISTINGUISHED LECTURES</b></font></h4>
+		<hr>
+		<div align="center">
+		<table width="60%">
+		 <tbody><tr>
+			 <td width="10%" rowspan="0"><a href="#North_America"><button class="button1">NORTH AMERICA</button></a> <td>
+			 <td width="10%" rowspan="0"><a href="#Europe"><button class="button1">EUROPE</button></a> <td>
+			 <td width="10%" rowspan="0"><a href="#Asia"><button class="button1">ASIA</button></a> <td>
+			  </tr>
+		 </tbody></table>
+		</div>
+		<p>
+		<a id="North_America"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>North America</u></font></h4>
+		<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Invited Keynote Lecture:  World Congress on Engineering and Computer Science  (International Conference on Computer Science and Applications), Venue: UC Berkeley, San Francisco, California, USA, and October 2007
+				<li> Invited Keynote Lecture: International Computer Science and Technology Conference, San Diego, California, USA, April 2008
+				<li> Invited Lecture: International Conference on Software Engineering Research and Practice, Nevada, USA, June 2007
+				<li> Invited Keynote Lecture: World Conference on Systemic, Cybernetics, and Informatics, Florida, USA, June 2008.
+			</ul>
+		</font>
+		<a id="Europe"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>Europe</u></font></h4>
+		<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Invited Keynote Lecture:  International Conference on Systems Engineering and Engineering Management, Venue: Imperial College of London, England, July 2008
+				<li> Invited Plenary Lecture: International Conference on Innovation and Management, Netherlands, December 2008
+				<li> Invited Plenary/Keynote Lecture: International Conference on E-Activity and Leading Technologies, Spain, December 2008
+				<li> Invited Keynote Lecture: INFER Conference on Process Management and Controlling, Czech Republic, Europe, November 2007
+				<li> Invited Keynote Lecture: International Scientific Conference on Technology Systems Operations Management, Slovak Republic, Europe, November 2007
+			</ul>
+		</font>
+		<a id="Asia"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>Asia</u></font></h4>
+		<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> Invited Speaker, National Conclave on Strategic Inventions for Modern India: The Road Ahead, Kanpur, February 2020.
+				<li> Distinguished Speaker, National Sugar Institute, Kanpur, June 2019.
+				<li> Invited Speaker, Uttarakhand Technical University, Dehradoon, July 2018.
+				<li> Invited Keynote Lecture: International Conference on “Disruptive Technologies Transforming Businesses (ICDT)”, Rama University, Kanpur, November 2018.
+				<li> Invited Keynote Lecture: International Conference on Advanced Computing and Intelligent Engineering, December 2018, SOA University, Bhubaneshwar, Odisha, India.
+				<li> Invited Keynote Lecture: International Conference on Advanced Computing and Intelligent Engineering, November 2017, Central University of Rajasthan, SPRINGER.
+				<li> Invited Keynote Lecture: International Seminar on E-Commerce and Digitization, Kanpur, February 2017.
+				<li> Invited Keynote Lecture: International Seminar on “E-Commerce and Digitalization: Opportunities and Challenges” (EDOC), Rama University, February 2017.
+				<li> Invited Keynote Lecture: 4th South Asia Workshop on Research Frontiers in Computing, NUS, Singapore, May 2015.
+				<li> Invited Keynote Lecture: International Conference on Information and Electronics Engineering, Bangkok, Thailand, May 2011.
+				<li> Invited Keynote Lecture: International Conference on Computing, Communications and Information Technologies, Vellore, India, December 2011.
+				<li> Invited Keynote Lecture: International Conference on Computer Design and Applications, Singapore, May 2009.
+				<li> Invited Keynote Lecture: International Conference on Systemics, Cybernetics, and Informatics, Hyderabad, India, 2008.
+				<li> Invited Keynote Lecture: Second International Conference on Resource Utilization and Intelligent Systems, India, Coimbatore, India, 2008.
+				<li> Invited Keynote Lecture: National Conference on Information Technology, Delhi, India, 2007.
+			</ul>
+		</font>
+		</p>
+		<a id="EDUCATION"></a>
+		<br><br>
+		<h4 align="left"><font color="#536dfe"><b>EDUCATION</b></font></h4>
+		<hr>
+		<p>
+			<font size="3">
+			<i>NSERC PDF</i><br>
+			Harvard University/SUNY Buffalo, USA
+			<br><br>
+			<i>Ph.D. (Management)</i><br>
+			Carleton University, Ottawa, Canada<br>
+			<b>External Examiner’s Comments on the Thesis:</b> "<i>Outstanding Dissertation. Strongly recommended for an Outstanding Thesis Award. In addition, it should also compete for National and International level doctoral awards. The dissertation produced by the Candidate is a masterpiece, containing significant and innovative contributions to the research and the practice of information systems and software engineering. Having read several dissertations from different Universities of international repute, I feel this Dissertation is comparable to the best dissertations produced so far in the areas of information systems and software engineering. The results in the Dissertation have a strong potential for use by software practitioners in the industry. The Dissertation is an original work of fundamental importance. It addresses a few fundamental problems on the topic of ASD, which has a strong potential to form the basis of future research in the areas of information systems and software engineering.</i>"
+			<br><br>
+			<i>MS (Computer Science)</i><br>
+			University of New Brunswick, Canada
+			<br><br>
+			<i>M.Tech (Computer Science and Data Processing)</i><br>
+			Indian Institute of Technology, Kharagpur
+			<br><br>
+			<i>Bachelor of Engineering (Electronics and Communication Engineering)</i><br>
+			Andhra University, Waltair
+			</font>
+		</p>
+		<a id="EXPERIENCE"></a>
+		<br><br>
+		<h4 align="left"><font color="#536dfe"><b>EXPERIENCE</b></font></h4>
+		<hr>
+		<p>
+			<h4 align="left"><font color="#536dfe"><u>Current Position</u></font></h4>
+			<font size="3">
+				<i>Professor</i> <br>           
+				Department of Industrial and Management Engineering <br>
+				Indian Institute of Technology, Kanpur, Uttar Pradesh, India
+			</font>
+			<br><br>
+			<h4 align="left"><font color="#536dfe"><u>Previous Positions</u></font></h4>
+			<font size="3">
+				<i>Associate Professor/ Assistant Professor/Visiting Assistant Professor</i> <br>          
+				Department of Industrial and Management Engineering <br>
+				Indian Institute of Technology, Kanpur, Uttar Pradesh, India<br><br>
+				<i>Visiting Scientist</i> <br>           
+				Harvard University & SUNY Buffalo, USA<br><br>
+				<i>Visiting Faculty</i> <br>           
+				Defence Engineering College, Ethiopia<br><br>
+				<i>Instructor (Visiting Faculty)</i> <br>           
+				Ryerson University, Toronto, Canada<br><br>
+				<i>Senior Project Advisor </i> <br>           
+				Supernet Solutions Scarborough, Canada<br><br>
+				<i>Project Advisor</i> <br>           
+				Detailed Hosting, Scarborough, Canada<br><br>
+				<i>Software Developer/Systems</i> <br>           
+				Nortel Networks, Ottawa, Ontario, Canada<br><br>
+				<i>Assistant Executive Engineer</i> <br>           
+				Indian Telephone Industries, Mankapur, UP, India<br><br>
+			</font>
+		</p>
+		<a id="TEACHING"></a>
+		<br><br>
+		<h4 align="left"><font color="#536dfe"><b>TEACHING</b></font></h4>
+		<hr>
+		<p>
+			<h4 align="left"><font color="#536dfe"><u>COURSES TAUGHT</u></font></h4>
+			<font size="3">
+				<ul style="list-style-type:disc;">
+					<li> Business Process Management
+					<li> Software Project Management
+					<li> Business Management using Cloud
+					<li> Management Information Systems
+					<li> Software Quality Management
+					<li> Business Process Modelling
+					<li> Business Process Patterns
+					<li> Computing for Management
+					<li> ERP 
+					<li> Project Management
+				</ul>
+			</font>
+			<br>
+			<h4 align="left"><font color="#536dfe"><u>NEW COURSES DEVELOPED</u></font></h4>
+			<font size="3">
+				<ul style="list-style-type:disc;">
+					<li> Business Process Management
+					<li> Business Management using Cloud
+					<li> Software Quality Management
+					<li> Business Process Modelling
+					<li> Business Process Patterns
+				</ul>
+			</font>
+		</p>
+		<a id="GRANTS"></a>
+		<br><br>
+		<h4 align="left"><font color="#536dfe"><b>RESEARCH GRANTS</b></font></h4>
+		<hr>
+		<p>
+			<h4 align="left"><font color="#536dfe"><u>Sponsored Projects</u></font></h4>
+			<font size="3">
+				<ol>
+					<li> <b>IMPRINT II Project:</b> <b>Sole Investigator at IIT Kanpur, Co-Principal Investigator of the entire multi-institutional project</b>, "<i>Unified Software Defined Architecture for Industrial Internet Of Things</i>”, SERB/MHRD, New Delhi, Government of India, Grant for the entire project: Rs.13593800.
+					<li> <b>Indo-French Project:</b> <b>Sole Investigator at IIT Kanpur, Co-Principal Investigator of the entire multi-national/multi-institutional project</b>, "<i>Fog-City: QoS-Aware Resource Management for Smart Cities</i>", CEFIPRA, Grant for the entire project for Indian partners: Rs. 4239027
+					<li> <b>Co-Principal Investigator</b>, "<i>GIS and Soft Computing based Land Consolidation System</i>", DST, New Delhi, Government of India, Grant Amount: Rs. 16.68 lakhs (approx.) for 1.5 years (Jan 2018-June 2019).
+					<li> <b>Administrator</b>, "<i>A Device for Estimation of Solar Energy</i>", MHRD, Government of India, Grant Amount: Rs Approx.14.67 lakhs, for 1.5 years (May 2017-Nov 2018).
+					<li> <b>Sole Investigator at IIT Kanpur, Co-Principal Investigator of the entire project</b>, "<i>Development of Robotic Precision Planter</i>", ICAR, New Delhi, Government of India, Total Grant Amount: Rs 11 lakhs, for 2 years (2016-2018).
+					<li> <b>Principal Investigator</b>, "<i>Smart, Intelligent and Mobile Mines for Border Surveillance</i>", MHRD/IIT Kanpur, India, Grant Amount: Rs. 20.1 lakhs approx., for 0.5 years (Mar 2017-Sept 2017).
+					<li> <b>Principal Investigator</b>, "<i>Trust, Privacy and Security Issues in ERP Projects</i>”, DRDO RCI, Hyderabad, India, Grant Amount: Rs. 9 Lakhs, for 2 years (2013-2015).
+					<li> <b>Principal Investigator</b>, "<i>Models for Supporting the Analysis and Re-design of Business Processes in Agile ERP Implementation Projects</i>",IIT Kanpur, India, Grant Amount: Rs. 8 Lakhs, for 2 years (2011-2013).
+				</ol>
+			</font>
+		</p>
+		<a id="GROUP"></a>
+		<br><br>
+		<h4 align="left"><font color="#536dfe"><b>RESEARCH GROUP</b></font></h4>
+		<hr>
+		<div align="center">
+		<table width="50%">
+		 <tbody><tr>
+			 <td width="10%" rowspan="0"><a href="#phd"><button class="button1">Ph.D. Thesis Supervision</button></a> <td>
+			 <td width="10%" rowspan="0"><a href="#mtech"><button class="button1">M.Tech. Thesis Supervision</button></a> <td>
+			  </tr>
+		 </tbody></table>
+		</div>
+		<a id="phd"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>Ph.D. Thesis Supervision</u></font></h4>
+		<p>
+		<h4 align="left"><font color="#536dfe">Completed</font></h4>
+			<font size="3">
+				<ol>
+					<li> Shikha Singh, “<i>Investigation of success determinants to institutionalization of Product Lifecycle Management</i>”,PhD Thesis, IIT Kanpur, 2019. (Sole Supervision) Employment: Assistant Professor, IIT Dhanbad.
+					<li>Shiromani Balmukund Rahi, “<i>Adoption of Cloud Based Services in Semiconductor Industries</i>” PhD Thesis, IIT Kanpur, 2018. (Sole Supervision)
+					<li>Shivam Gupta, “<i>Compliance, Network, Security and Critical Success Factors In Cloud ERP Implementation: A Theoretical Framework and its Empirical Investigation</i>”, PhD IIT Kanpur, 2016. (Sole Supervision)<br>
+					Employment: Associate Professor, Montpellier Business School, France.
+					<li>Amritesh ,“<i>Exploring Credence Quality in E-Services: Study of Online Counselling Service in India</i>", PhD Thesis, IIT Kanpur, 2015. (Other Supervisor: Professor Jayanta Chatterjee)<br>
+					Employment: Assistant Professor, IIT Ropar.
+					<li> Aswani Kumar, PhD Thesis (Other Supervisor: Professor B. Lohani)(Open Seminar Defended)
+					<li> Bhavesh Kumar, PhD Thesis, IIT Kanpur (Other Supervisor: Professor B. Lohani) (Thesis submitted for evaluation)
+
+				</ol>
+			</font>
+		<h4 align="left"><font color="#536dfe">In Progress</font></h4>
+			<font size="3">
+				<ol start="7">
+					<li> Abhishek Shukla (JRF/Project Staff), PhD Thesis, IIT Kanpur (Sole Supervision)
+					<li> Arpit  Singh, PhD Thesis, IIT Kanpur (Sole Supervision)
+					<li> Avirag Bajpai, PhD Thesis, IIT Kanpur (Sole Supervision)	
+					<li> Sarabjot Kaur, PhD Thesis, IIT Kanpur (Sole Supervision)
+				</ol>
+			</font>
+		</p>
+		<a id="mtech"></a>
+		<br>
+		<h4 align="left"><font color="#536dfe"><u>M.Tech. Thesis Supervision</u></font></h4>
+		<p>
+		<h4 align="left"><font color="#536dfe">Completed</font></h4>
+			<font size="3">
+				<ol>
+					<li> Hemant K Singh, “<i>Adopting IoT in Manufacturing Organizations - Important Factors and Moderating Effects of Privacy and Security</i>”, MTech Thesis,  IIT Kanpur, 2017-2019.
+					<li> Ambika P Srivastava, “<i>Assessment of the Factors for the Adoption of Internet of Things in Logistics</i>”, MTech Thesis,  IIT Kanpur, 2017-2019.
+					<li> Ankur Kumar, “<i>Design of Petroleum Supply Chain Model using Multi-mode, Multi-product Network Analysis (A Case Study)</i>”, MTech Thesis,  IIT Kanpur, 2016-2019.
+					<li> Neha Pawar, “<i>Assessment of Success Factors for the Adoption of the Cloud Services in Semiconductor Industry</i>”, MTech Thesis, IIT Kanpur, 2016-2018.
+					<li> Tarun Agarwal, “<i>Land Consolidation Rearrangement Process using Algorithm For Agricultural Lands</i>”, MTech Thesis, IIT Kanpur, 2016-2018.
+					<li> Prince Kumar Tiwari, “<i>Intrinsic and Extrinsic Factors for the Adoption of Cloud Supply Chain Management</i>”, MTech Thesis, IIT Kanpur, 2015-2017.
+					<li> Ranjan Mishra, “<i>Adoption of Cloud Services in Indian Aerospace Sector</i>” MTech Thesis, IIT Kanpur, 2014-2016.
+					<li> Ashutosh Kumar, “<i>Cloud Healthcare Management Identifying Privacy and Security concerns and their moderating effect on adoption of cloud Healthcare Services</i>” MTech Thesis,IIT Kanpur, 2014 – 2016.
+					<li> Anil Sonekar, “<i>Challenges in the Implementation of Cloud SCM</i>”, MTech Thesis, IIT Kanpur, 2013–2015.
+					<li> Mayur Gupta, “<i>Challenges in the Implementation of Cloud CRM</i>”, MTech Thesis, IIT Kanpur, 2013 – 2015
+					<li> Amit Singh, “<i>Success Factors for the Adoption of Cloud SCM</i>”, MTech Thesis, NIT Jamshedpur, 2013 – 2015 (Other Supervisor: Dr. Dharmendra Patel).
+					<li> Arun K Lamba, “<i>Success Factors for the Adoption of Cloud</i>”, MTech Thesis, NIT Jamshedpur, 2013 – 2015 (Other Supervisor: Dr. Dharmendra Patel).
+					<li> Akash Singh, “<i>Challenges in the implementation of Cloud Based ERP</i>”, MTech Thesis, IIT Kanpur, 2012 – 2014.
+					<li> Virendra Singh, “<i>Trust, Privacy and Security Concerns in ERP</i>”, MTech Thesis, IIT Kanpur, 2011 – 2013 (Co-Supervisor: Professor YN Singh).
+					<li> Ghanshyam Kumawat, “<i>Modelling Success Factors for the Implementation of ERP in the Cloud</i>”, MTech Thesis, IIT Kanpur, 2011 – 2013.
+					<li> Angad Kumar, “<i>Impact of Organizational Factors on the Performance of ERP Systems</i>”, MTech Thesis, IIT Kanpur, 2011 – 2013.
+					<li> Padam Singh, “<i>Impact of ERP on Supply Chain Management</i>”, MTech Thesis, IIT Kanpur, 2010 – 2012.
+					<li> Mohammad Jilani, “<i>Modelling Success Factors for the Implementation of ERP in the Water Sector</i>”, MTech Thesis, IIT Kanpur, 2009 – 2011 (Co-Supervisor: Professor Pranab Mohapatra).
+					<li> Om Shiv, “<i>Agile Software Development in the Context of Offshoring: Success Factors and Challenges</i>”, MTech Thesis, IIT Kanpur, 2008 – 2010. (Other Supervisor: Professor RRK Sharma).
+					<li> Abhishek Sanwaliya, “<i>Classification of Financial Articles</i>”, MTech Thesis, IIT Kanpur, 2008 – 2010 (Co-Supervisor: Professor Kripa Shanker).
+					<li> Pankaj Agarwal, “<i>Trust, Information Privacy and Software Security Concerns in Agile Software Development</i>”, MTech Thesis, IIT Kanpur, 2008 – 2010. (Other Supervisor: Professor RRK Sharma).
+
+
+				</ol>
+			</font>
+		<h4 align="left"><font color="#536dfe">In Progress</font></h4>
+			<font size="3">
+				<ol start="22">
+					<li> Abhishek Rai, IIT Kanpur, 2019-2021
+					<li> Akash Kumar, IIT Kanpur, 2018-2020
+					<li> Ashwani Prabhakar, IIT Kanpur, 2018-2020 
+				</ol>
+			</font>
+		</p>
+		<a id="ADMINISTRATIVE"></a>
+		<br><br>
+		<h4 align="left"><font color="#536dfe"><b>ADMINISTRATIVE ACTIVITIES AT IIT KANPUR</b></font></h4>
+		<hr>
+		<p>
+			<font size="3">
+			<ul style="list-style-type:disc;">
+				<li> WARDEN, Students’ Hall of Residence - HALL III, IIT KANPUR (2013-2016)
+				<li> MBA Admissions Coordinator, IME Department, IIT Kanpur (2018-2019)
+				<li> DUGC Convener, IME Department, IIT Kanpur (2017-2018)
+				<li> Convener, Seminar Committee, IME Department (2010-2011, 2015-2017)
+				<li> Council of Wardens (COW) Nominee, Disciplinary Committee (S-SAC), IITK  (2014 -2015)
+				<li> Advisory Committee Member, Vivekananda Samiti. (2012-2013)
+				<li> Faculty Adviser, YOGA, IIT Kanpur (2011-2012)
+				<li> Coordinator YOGA, IIT Kanpur (2011-2013)
+				<li> Convener, PhD Admissions (December, 2012)
+				<li> Convener, MTech Admissions (2011-2012)
+				<li> IIT Representative for both JEE and GATE at different centres (2010-2018)
+				<li> Faculty Representative, Prabandhan, IME Department (2010 -2011)
+				<li> Selection Committee Member for MTech, MBA and PhD Admissions (2008-2011)
+				<li> Executive Member, Faculty Club, IIT Kanpur (2011-2012)
+			</ul>
+			</font>
+		</p>
+
+		<a id="PUBLICATIONS"></a>
+		<br><br>
+		<h4 align="left"><font color="#536dfe"><b>LIST OF RELEVANT PUBLICATIONS</b></font></h4>
+		<hr>
+		<p>
+		<h4 align="left"><font color="#536dfe">Peer Reviewed Journals</font></h4>
+			<font size="3">
+<ol start="1">
+
+					<li>Arpit Singh and <b>Subhas C. Misra</b> (2020), "<i>A Dominance based Rough Set analysis for
+					investigating employee perception of safety at workplace and safety
+					compliance</i>", <b>Safety Science</b>, Elsevier (In Press).<br><br>
+
+				<li>Bhavesh Kumar, Gaurav Pandey, Bharat Lohani, <b>Subhas C. Misra</b> (2020),  "<i> A framework for automatic classification of mobile LiDAR data using multiple regions and 3D CNN architecture </i>". <b> 				International Journal of Remote Sensing</b>. doi: 10.1080/01431161.2020.1734252 <br><br>
+
+					<li> Shikha Singh, <b>Subhas C. Misra</b>, and Sameer Kumar  (2020), "<i>Identification and Ranking of the Risk Factors Involved in PLM Implementation</i>", <b>International Journal of Production Economics</b>, Elsevier (In Press).<br><br>
+					<li> Aswani Kumar Munnangi, Bharat Lohani and <b>Subhas C. Misra</b> (2020), "<i>A review of land consolidation in the state of Uttar Pradesh, India: A qualitative approach</i>", <b>Land Use Policy</b>, Elsevier (In Press).<br><br>
+					<li> Arpit Singh and <b>Subhas C. Misra</b> (2020), "<i>Ordering Drivers of Green Supply Chain Management Practices in Indian Construction Industry: An Impact Assessment Framework</i>", <b>International Journal of Quality and Reliability Management</b> (In Press).<br><br>
+					<li> <b>Subhas C. Misra</b> and Sandip Bisui (2019), "<i>Security Determinants in ERP Systems: Modeling and Analysis</i>", <b>Software Quality Professional</b>, American Society for Quality Publication, USA, Vol 22, Issue 1.<br><br>
+					<li> <b>Subhas C. Misra</b>, Sandip Bisui, Arpit Singh (2019), "<i>A Study on the Role of Trust Factor in Adopting Personalized Medicine</i>", <b>Behaviour and Information Technology</b>, Taylor and Francis. DOI: 10.1080/0144929X.2019.1614225.<br><br>
+					<li> Singh Shikha, <b>Subhas C. Misra</b> (2019), "<i>Exploring the Challenges for Adopting the Cloud PLM in a Manufacturing Organization</i>", <b>IEEE Transactions on Engineering Management </b>, DOI: 10.1109/TEM.2019.2908454.<br><br>
+					<li> Singh Shikha, <b>Subhas C. Misra</b>, and Kumar Sameer (2019), "<i>Critical barriers to PLM Institutionalization in Manufacturing Organizations</i>", <b>IEEE Transactions on Engineering Management</b>, https://doi.org/10.1109/TEM.2019.2911574.<br><br>
+					<li> Singh Shikha, <b>Subhas C. Misra</b>, Chan F.  T. S. (2019), "<i>Establishment of Critical Success Factors for Implementation of Product Lifecycle Management Systems (PLMS)</i>", <b>International Journal of Production Research</b>, Taylor and Francis, https://doi.org/10.1080/00207543.2019.1605227.<br><br>
+					<li> Singh Shikha, <b>Subhas C. Misra</b>, and Kumar Sameer. (2019), "<i>What are the Stumbling Blocks to Making Product Lifecycle Management Routine in Organizations?</i>", <b>IEEE Engineering Management Review</b>, IEEE DOI 10.1109/EMR.2019.2912595.<br><br>
+					<li> Bhavesh Kumar, Gaurav Pandey, Bharat Lohani and <b>Subhas C. Misra</b> (2019) "<i>A multi-faceted CNN architecture for automatic classification of mobile LiDAR data and an algorithm to reproduce point cloud samples for enhanced training</i>", <b>ISPRS Journal of Photogrammetry and Remote Sensing</b>, Elsevier, Vol. 147, pp. 80-89.<br><br>
+					<li> Sandip Bisui, <b>Subhas C. Misra</b> (2019),  "<i>Impact of Privacy Issues on Successful Implementation of Personalized Medicare System - An Empirical Study</i>", <b>International journal of E-Health and Medical Communication</b>, Vol. 10,  No. 3, pp. 96-115.<br><br>
+					<li> <b>Subhas C. Misra</b>, S.B Rahi, Sandip Bisui, Arpit Singh (2019), "<i>Factors Influencing the Success of Cloud Adoption in the Semiconductor Industry</i>" Software Quality Professional Journal, <b>American Society for Quality Publication</b>, USA, Vol. 21, No. 2, pp. 38-51.<br><br>
+					<li> <b>Subhas C. Misra</b>, R. Mishra and A. K. Munnangi (2019), "<i>Challenges in Implementing Cloud Technology in Aerospace Industries</i>", <b>Software Quality Professional</b>, American Society for Quality Publication, Vol. 21, No. 2, pp. 27-37.<br><br>
+					<li> <b>Subhas C. Misra</b>, Ashutosh Kumar, Aswani Munnangi (2019), "<i> Cloud-Based Healthcare Management: Identifying the Privacy Concerns and their Moderating Effect on the Cloud-Based Healthcare Services</i>", <b>Security and Privacy</b>, DOI: 10.1002/spy2.63, Wiley.<br><br>
+					<li> <b>Subhas C. Misra</b> and K. Doneria (2018), "<i>Application of Cloud Computing in Financial Services: An Agent Oriented Modelling Approach</i>", <b>Journal of Modelling in Management</b>, Vol. 13, No. 7, pp. 994-1006.<br><br>
+					<li> <b>Subhas C. Misra</b>, R. Mishra and A. K. Munnangi (2018),  "<i>Trust Concerns in Adoption of Cloud Services in the Aerospace Sector in India</i>", <b>Software Quality Professional Journal</b>, American Society for Quality Publication. Vol. 20, No. 4, pp. 48-60.<br><br>
+					<li> <b>Subhas C. Misra</b>, S. Bisui and G. Mahapatra (2018), "<i>Trust Issues in ERP Implementation: Modeling and Analysis</i>", <b>Software Quality Professional Journal</b>, American Soc. Quality Publication, Vol 20, No. 1, 4-16.<br><br>
+					<li> <b>Subhas C. Misra</b> and S. Bisui (2018), "<i>Modelling vital success factors in adopting personalized medicine system in healthcare technology and management</i>", <b>Engineering Science and Technology</b>, an International Journal, ELSEVIER, Vol. 21, No. 3, pp. 532-545.<br><br>
+					<li> Amritesh, <b>Subhas C. Misra</b>, and J. Chatterjee (2018),  "<i>Quality Framework for Credence-Based Informational Services: Applying KANO’s Method</i>", <b>Total Quality Management and Business Excellence</b>, Taylor and Francis, Vol. 29, Issue 1-2, pp. 116-147.<br><br>
+					<li> Singh Shikha, <b>Subhas C. Misra</b> (2018), "<i>Migration of PLM Systems to Cloud</i>", <b>International Journal of Communication Systems</b>, 31(18), e3815. Wiley.<br><br>
+					<li> Singh Shikha, <b>Subhas C. Misra</b> (2018), "<i>Identification of Barriers to PLM Institutionalization in Large Manufacturing Organizations: A Case Study</i>", <b>Business Process Management Journal</b>, https://doi.org/10.1108/BPMJ-12-2017-0367.<br><br>
+					<li> <b>Subhas C. Misra</b>, R. Rana, R. Verma, V. Kumar, and U. Kumar (2017),  "<i>Modelling Change Management and Risk Management in a Financial Organization Due to Information Systems Adoption</i>", <b>TNCR –Transnational Corporations Review</b>, Taylor and Francis, Vol. 9, No. 4, pp. 248-268.<br><br>
+					<li> S. B. Rahi, S. Bisui and <b>Subhas C. Misra</b> (2017), "<i>Identifying Critical Challenges in the Adoption of Cloud Based Services</i>", <b>International Journal of Communication Systems</b>, Wiley, Vol. 30, No. 12, pp. 1-14.<br><br>
+					<li> S. B. Rahi, S. Bisui, and <b>Subhas C. Misra</b>, "<i>Identifying the Moderating Effect of Trust on the Adoption of Cloud-Based Services</i>", <b>International Journal of Communication Systems</b>, John Wiley, Vol 30, No 11, pp. e3253:1-19, 2017. DOI: 10.1002/dac.3253.<br><br>
+					<li> S. Gupta, <b>Subhas C. Misra</b>, N. Kock, and D. Raubaud (2017), "<i>Organizational, Technological and Extrinsic Factors for the Implementation of Cloud ERP in SMEs</i>", <b>Journal of Organizational Change Management</b>, Taylor and Francis,  Vol. 31, No. 1, pp. 83-102.<br><br>
+					<li> S. Gupta, <b>Subhas C. Misra</b>, A. Singh, V. Kumar and U. Kumar (2017), "<i>Identification of Challenges and their Ranking in the Implementation of Cloud ERP: A Comparative Study for SMEs and Large Organizations</i>", <b>International Journal of Quality and Reliability Management</b>, Vol. 34, No. 7, pp. 1056-1072.<br><br>
+					<li> S. Gupta and <b>Subhas C. Misra</b> (2016), "<i>Moderating Effect of Compliance, Network, and Security on the Critica Success Factors in the Implementation of Cloud ERP</i>", <b>IEEE Transactions on Cloud Computing</b>, Vol 4, No. 4, pp 440-451.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Singh and S. Bisui (2016), "<i>Characterizing Agile ERP</i>", <b>Software Quality Professional</b>, American Society for Quality, USA, Vol. 18, No. 3, pp. 39-46.<br><br>
+					<li> <b>Subhas C. Misra</b>, S. Bisui and K. Fantazy (2016), "<i>Identifying Critical Changes in Adoption of Personalized-Medicine (PM) in Healthcare Management</i>", <b>International Journal of E-Health and Medical Communication</b>, USA, Vol. 7, No. 3, pp. 1-15.<br><br>
+					<li> N. Kumar, K. Kaur, <b>Subhas C. Misra</b> and R Iqbal (2016),  "<i>An Intelligent RFID-Enabled Authentication Scheme for Healthcare Applications in Vehicular Mobile Cloud</i>", <b>Peer to Peer Networking and Applications</b>, Springer, Vol. 9, No. 5, pp. 824-840.<br><br>
+					<li> <b>Subhas C. Misra</b> and S Bisui (2016), "<i>Feasibility of large scale implementation of personalized medicine in the current scenario</i>", <b>International Journal of E-Health and Medical Communication</b>, USA, Vol. 7, No. 2, pp. 30-49.<br><br>
+					<li> S Gupta and <b>Subhas C. Misra</b> (2016), "<i>Compliance, network, security and the people related factors in cloud ERP implementation</i>", <b>International Journal of Communication Systems</b>, Wiley, Vol 29, No. 8, pp. 1395-1419.<br><br>
+					<li> N Kumar, N Chilamkurti, <b>Subhas C. Misra</b> (2016), "<i>Bayesian Coalition Game for Internet of Things: An Ambient Intelligence-based Evaluation</i>", <b>IEEE Communication Magazine</b>, Vol. 53, No. 1, pp 48-55.<br><br>
+					<li> N Kumar, S. Zeadally, <b>Subhas C. Misra</b> (2016), "<i>Mobile Cloud Networking for Efficient Energy Management in Smart Grid Cyber-Physical Systems</i>", <b>IEEE Wireless Communication</b>, Vol. 23, No. 5, pp. 100-108.<br><br>
+					<li> <b>Subhas C. Misra</b>, V Singh, N K Jha, and S Bisui (2016), "<i>Modelling Privacy Concerns in Distributed ERP-Systems</i>", <b>International Journal of Communication Systems</b>, Wiley, Vol. 29, and No. 2, pp. 378-401.<br><br>
+					<li> <b>Subhas C. Misra</b> and V Singh (2015), "<i>Conceptualizing Open Agile Software Development Lifecycle (OASDLC) Model</i>", <b>International Journal of Quality and Reliability Management</b>, Vol. 32, No: 3, pp. 214-235.<br><br>
+					<li> Amritesh, <b>Subhas C. Misra</b>, J Chatterjee (2014), "<i>Emerging Scenario of Online Counselling in India: A case of e-governance quality intervention</i>", <b>Transforming Government: People</b>, Process and Policy, Vol. 8, No.4, pp. 569-596.<br><br>
+					<li> <b>Subhas C. Misra</b> and S Bisui (2014), "<i>Critical Challenges for Adopting Personalized Medicine in Healthcare Management: Perspectives of Clinicians and Patients</i>", <b>International Journal of E-Health and Medical Communication</b>, USA, Vol. 5, Issue 2, pp. 70-89.<br><br>
+					<li> Amritesh and <b>Subhas C. Misra</b> (2014), "<i>Conceptual Modelling of Knowledge Management to Support Agile Software Development</i>", <b>Knowledge Engineering Review Journal</b>, Cambridge, Vol. 29, No. 4, pp. 496-511.<br><br>
+					<li> Amritesh, <b>Subhas C. Misra</b>, J Chatterjee (2014), "<i>Conceptualizing E-Government Service Quality under Credence-Based Settings: A Case of E-Counselling in India</i>", <b>International Journal of Quality and Reliability Management</b>, Vol. 31, No. 7, pp. 764-87.<br><br>
+					<li> Amritesh, <b>Subhas C. Misra</b>, and J Chatterjee (2013), "<i>Positioning e-Government services in the Credence-based Setting: Illustrating an Indian Context</i>", <b>Transforming Government: People</b>, Process and Policy, Vol. 7, No. 3, pp. 393- 409.<br><br>
+					<li> Amritesh, <b>Subhas C. Misra</b>, and J Chatterjee (2013), "<i>Applying Gap Model for Bringing Effectiveness to E-Government Services: A Case of NeGP Deployment in India</i>", <b>International Journal of Electronic Government Research</b>, USA, Vol. 9, Issue 3, pp. 43-57.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Kumar, U. Kumar, K. Fantazy, and M. Akhter (2012), "<i>Agile Software Development Practices: Evolution, Principles and Criticisms</i>", <b>International Journal of Quality and Reliability Management</b>, Vol. 29, Issue 3, pp. 103-122.<br><br>
+					<li> S. Saini, S. Nigam, and <b>Subhas C. Misra</b> (2012), "<i>Identifying Success Factors for Implementation of ERP at Indian SMEs: Comparative Study with Indian Large Organizations and the Global Trend</i>", <b>Journal of Modelling in Management</b>, Vol. 8, No. 1, pp. 103-122.<br><br>
+					<li> <b>Subhas C. Misra</b> and D. Vera (2011), "<i>Leveraging the Modelling of Return on Investment for Grid Computing</i>", <b>International Journal of Information Technology</b>, Communications and Convergence (IJITCC), U.K., Vol. 1, No.4, pp. 359-371.<br><br>
+					<li> <b>Subhas C. Misra</b> and A. Mondal (2011), "<i>Identification of a Company’s Suitability for the Adoption of Cloud Computing and Modelling Return on Investment</i>", <b>Mathematical and Computer Modelling</b>, Elsevier, Vol. 53, No. 3-4, pp. 504-521.<br>
+					<b>“Hottest Paper” (Rated by Science Direct/Elsevier).</b><br><br>
+					<li> <b>Subhas C. Misra</b>, U. Kumar, and V. Kumar (2010),  "<i>Identifying Critical Changes Required for Adopting Agile Software Development Practices in Projects Practicing Traditional Plan Driven Practices</i>", <b>International Journal of Quality and Reliability Management</b>, Vol. 27, No. 4, pp. 451-495.<br><br>
+					<li> <b>Subhas C. Misra</b>, U. Kumar, and V. Kumar (2010), "<i>Challenges in Transitioning Plan-Driven Software Development Project to Agile</i>", <b>Software Quality Professional Journal</b>, American Society for Quality, USA, Vol. 12, No. 3, pp. 20-32.<br><br>
+					<li> M. A. Shareef, V. Kumar, U. Kumar, A. H. Chowdhury, and <b>Subhas C. Misra</b> (2012), "<i>E-Government Implementation Perspective: Setting Objectives and Strategy</i>", <b>International Journal of Electronic Government Research</b>, U.K., Vol. 6, No. 1, pp. 59-77, DOI: 10.4018/978-1-4666-1776-6.ch005.<br><br>
+					<li> <b>Subhas C. Misra</b>, U. Kumar, and V. Kumar (2009), "<i>Identifying some important success factors in adopting agile software development practices</i>", <b>Journal of Systems and Software</b>, Elsevier, Vol. 82, No. 9, pp. 1869-1890.<br>
+					<b>“Hottest Paper” (Rated by Science Direct/Elsevier).</b><br><br>
+					<li> K Fantazy, V. Kumar, U.Kumar, and <b>Subhas C. Misra</b> (2009), "<i>The Impact of Strategy and Information Systems Flexibility on the Supply Chain Performance</i>", <b>International Journal of Business and Systems Research</b>, U.K, https://doi.org/10.1504/IJBSR.2009.023518.<br><br>
+					<li> <b>Subhas C. Misra</b>, V.  Kumar, and U.  Kumar (2008), "<i>Modelling Strategic  Actor  Relationships  for  Risk  Management  in  the Organizations Undergoing Business Process Reengineering due to Information Systems Adoption</i>", <b>Business Process Management Journal</b>, Vol. 14, No. 1, pp. 65-84.<br><br>
+					<li> M.A. Shareef, V. Kumar, U. Kumar, and <b>Subhas C. Misra</b> (2008),  "<i>The Role of E-Sellers’ Overall Reputation on Trust Formation, Purchase Intention and Purchase Satisfaction: A Developing Country Perspective</i>", <b>International Journal of Electronic Marketing & Retailing</b>, U.K., Vol. 2, No. 2, pp. 105-134.<br><br>
+					<li> S. Misra, <b>Subhas C. Misra</b>, Isaac Woungang (2008), "<i>Alogorithm and theoretical aspects of wireless ad hoc and sensor networks</i>", <b>Computer Communications</b>, ELSEVIER, Vol. 31, No.4, pp. 655-658.<br><br>
+					<li> <b>Subhas C. Misra</b>, U. Kumar and V. Kumar (2007), "<i>An Agent Oriented Modelling for Risk Analysis and Control in Software Projects</i>", <b>International Journal of Process Management and Benchmarking</b>, U.K.,   Vol. 2, No.2, pp. 89-98.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Kumar and U. Kumar (2007), "<i>A Strategic Modelling Technique for Information Security Risk Assessment</i>" Information Management and Computer Security, <b>Vol. 15</b>, No. 1, pp. 64-77.<br><br>
+					<li> <b>Subhas C. Misra</b>, U.  Kumar, V.  Kumar, and M.  A.  Shareef (2007), "<i>Risk Management Models in Software Engineering</i>", <b>International Journal of Process Management and Benchmarking</b>, U.K., Vol. 2, No.1, pp. 59-70.<br><br>
+					<li> S. Misra, <b>Subhas C. Misra</b>, Isaac Woungang, W.-M. Chen and P. Mahati (2007), "<i>Extending Tropos to Model Quality of Service in Distributed Systems</i>", <b>Journal of Internet Technology (Taiwan)</b>, Vol. 8, No. 1,  pp. 121-128.<br><br>
+					<li> S. Misra, <b>Subhas C. Misra</b>, Isaac Woungang (2007), "<i>A Paradigm for Object-Oriented Conceptual Modelling of Optical Networks</i>", <b>Journal of Computing and Information Technology (EUROPE)</b>, Vol. 15, No. 1, pp. 7-15.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Kumar and U. Kumar (2006), "<i>A Conceptual Continuous Process Improvement Framework for Software Innovation</i>", <b>International Journal of Process Management and Benchmarking</b>, U.K., Vol. 1, No. 4, pp.314-331.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Kumar and U. Kumar (2006), "<i>Towards Strategic Modelling for Change Management in Industries Undergoing BPR Due to Information Technology Initiatives</i>", <b>Journal of Modelling in Management</b>, Vol. 1, No. 3 pp.215-231.<br><br>
+					<li> S. Misra, <b>Subhas C. Misra</b>, Isaac Woungang and H. –C. Chao (2006),"<i>Towards a UML Profile for Object Oriented Modelling of GMPLS Networks</i>", <b>Journal of Internet Technology (Taiwan)</b>, Vol. 7, No. 4, pp. 417-425.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Kumar, U. Kumar, and R. Mishra (2005), "<i>Goal Driven Measurement Framework for Software Innovation Process</i>", <b>Journal of Information Technology Management</b>, USA, Vol. 16, No. 3, pp.30-42.<br><br>
+					<li> <b>Subhas C. Misra</b> (2005), "<i>Modelling Design/Coding Factors that Drive Maintainability of Software Systems</i>", <b>Software Quality Journal</b>, Springer, Vol. 13, No. 3, pp. 297-320.<br><br>
+					<li> <b>Subhas C. Misra</b> and V. C. Bhavsar (2005), "<i>Object-Oriented Software Development Antecedents that Influence Product-Bug Density: Lessons for Quality Managers</i>", <b>International Journal of Quality and Reliability Management</b>, Vol. 22, No.2, pp.162-182.<br><br>
+					<li> <b>Subhas C. Misra</b> and V. C. Bhavsar (2003), "<i>Measures for Software System Difficulty</i>", <b>Software Quality Professional Journal</b>, American Society for Quality, USA, Vol. 5, No. 4, pp. 33-41.<br><br>
+					<li> <b>Subhas C. Misra</b>, S.C. Samanta and A. K. Chakrabarty (1992), "<i>Transient Magnetothermoelastic Waves in a Viscoelastic Half Space Produced by Ramp-Type Heating of its Surface</i>", <b>Computers and Structures</b>, U.K., Elsevier, Vol. 43, No. 5, pp. 951-957.
+				</ol>
+			</font>
+					
+			<br><br>
+			<h4 align="left"><font color="#536dfe">Peer Reviewed Book Chapters</font></h4>
+			<br>
+			<font size="3">
+				<ol start="70">
+					<li> Singh Shikha, <b>Subhas C. Misra</b> (2019), "<i>Significance of cloud PLM in Industry 4.0</i>", <b>In: Stark</b>,J (Ed.) Product Lifecycle Management (Volume 4): The case studies, Decision Engineering, Springer, Switzerland, pp. 249-255, https://doi.org/10.1007/978-3-030-16134-7_19.<br><br>
+					<li> Singh Shikha, <b>Subhas C. Misra</b> (2019), "<i>A Study Analyzing Individual Perception on PLM Benefits</i>", <b>Product Lifecycle Management (Volume 4): The case studies</b>, Decision Engineering, Springer, Switzerland, pp. 109-116, https://doi.org/10.1007/978-3-030-16134-7_9.<br><br>
+					<li> S. Kaur and <b>Subhas C. Misra</b> (2017), "<i>Social Networking and Knowledge Sharing</i>", <b>In Khosrow-Pour</b>, M. (Eds), Encyclopedia of Information Science and Technology, Chapt. 45,  pp.7161-7167, DOI: 10.4018/978-1-5225-7601-3.ch045.<br><br>
+					<li> S. Kaur and <b>Subhas C. Misra</b> (2017), "<i>Issues and Challenges in Enterprise Social Media</i>", <b>In Khosrow-Pour</b>, M. (Eds), Encyclopedia of Information Science and Technology, Chapt. 33, pp.7036-7043. DOI: 10.4018/978-1-5225-7601-3.ch033.<br><br>
+					<li> S. Bisui and <b>Subhas C. Misra</b> (2017), "<i>Personalized Medicine</i>", <b>In M. Khosrow-Pour (Eds)</b>, Encyclopaedia of Information Science and Technology, Chapt. 513, pp. 5901-5907, DOI: 10.4018/978-1-5225-2255-3.ch513.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Kumar and U. Kumar (2008), "<i>Project-Based Software Risk Management Approaches</i>", <b>Encyclopaedia of Information Science and Technology</b>, USA, Chapt. 501, pp. 3142-3146, DOI: 10.4018/978-1-60566-026-4.ch501.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Kumar and U. Kumar (2008), "<i>Influential Agile Software Parameters</i>", <b>Encyclopaedia of Information Science and Technology</b>, USA, Chapt. 305, pp. 1938-1943, DOI: 10.4018/978-1-60566-026-4.ch305.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Kumar and U. Kumar  (2006) "<i>An Approach for Intentional Modelling of Web Services Security Risk Assessment</i>", <b>Web Services Security and E-Business</b>, (Editors: Dr.G. Radhamoni and G. S. V. R. Rao), Chapt. 20, pp. 363-379, DOI: 10.4018/978-1-59904-168-1.ch020.
+				</ol>
+			</font>
+
+			<br><br>
+			<h4 align="left"><font color="#536dfe">Peer Reviewed International Conference Proceedings</font></h4>
+			<br>
+			<font size="3">
+				<ol start="78">
+					<li> Arpit Singh and <b>Subhas C. Misra</b> (2019), "<i>Identifying Challenges in the Adoption of Industry 4.0 in the Indian Construction Industry</i>", <b>in <i>Proceedings of the 3rd International Conference on Advanced Computing and Intelligent Engineering</i></b>, Bhubaneswar, Orissa.<br><br>
+					<li> Arpit Singh and <b>Subhas C. Misra</b> (2018), "<i>Investigating determinants of profitability of commercial firms: Rough Set Analysis</i>", <b>in <i>Proceedings of the 2nd International Conference on Advanced Computing and Intelligent Engineering</i></b>, Bhubaneswar, Orissa.<br><br>
+					<li> S. Singh, and <b>Subhas C. Misra</b> (2018),  "<i>Core Challenges to Cloud PLM Adoption in Large Manufacturing Firms</i>", <b>in <i>Proceedings of the 5th International Conference on Industrial Engineering and Applications</i></b>, pp. 141-145, IEEE, Singapore.<br><br>
+					<li> S. Singh, and <b>Subhas C. Misra</b> (2018), "<i>Success Determinants to Product Lifecycle Management (PLM) Performance</i>", <b>in <i>Proceedings of the 5th International Conference on Industrial Engineering and Applications</i></b>, pp. 386-390, IEEE, Singapore.<br><br>
+					<li> S. Singh, and <b>Subhas C. Misra</b> (2017), "<i>Challenges to Cloud PLM Adoption</i>", <b>in <i>Proceedings of the International Conference on Advanced Computing and Intelligent Engineering</i></b>, pp. 87-96, Springer, Ajmer, Rajasthan.  (Best Paper Award)<br><br>
+					<li> <b>Subhas C. Misra</b>, S. Bisui (2017),  "<i>Adoption of Personalized Medicine – Towards Identifying Critical Changes</i>", <b>in Healthcare Engineering 2017 – Proceedings of CAETS 2015 Convocation on Pathways to Sustainability</i></b>, Springer, Singapore, pp. 55 – 57.<br><br>
+					<li> S. Kaur and <b>Subhas C. Misra</b> (2016),  "<i>Looking Inwards: An Indian Philosophical Perspective on Reflexivity</i>", <b>in <i>Proceedings of the Conference on Cultural Heritage & Management</i></b>, Banaras, India.<br><br>
+					<li> S Gupta and <b>Subhas C. Misra</b> (2015), "<i>Implementation of Cloud ERP – Moderating Effect of Compliance on the Organizational Factors</i>", <b>in CLOSER 2015 - Proceedings of the 5th International Conference on Cloud Computing and Service Science</i></b>, Lisbon, Portugal, pp. 194-198.<br><br>
+					<li> Amritesh, <b>Subhas C. Misra</b>, and J. Chatterjee (2014), "<i>Student’s Pre-purchase Information Needs in Choosing Tertiary Education Services: Incorporating Credence Quality Dimensions</i>", <b>in <i>Proceedings of International Conference on Education Reform Management</i></b>, Phuket, Thailand.<br><br>
+					<li> S. Bisui and <b>Subhas C. Misra</b> (2013), "<i>Identifying Some Critical Challenges for Implementing Personalized Medicine</i>", <b>in <i>Proceedings of the International Conference on Computational Biology and Drug Design</i></b>, Jakarta, Indonesia.<br><br>
+					<li> Amritesh, <b>Subhas C. Misra</b>, Jayanta Chatterjee (2012), "<i>Examining factors for implementing E-Governance Service: Towards a Conceptual Model</i>", <b>in <i>Proceedings of the International Conference on Industrial and Intelligent Systems</i></b>, Singapore.<br><br>
+					<li> S. Saini, S. Nigam and <b>Subhas C. Misra</b> (2010), "<i>Success factors for Implementing ERP in India: A Conceptual Model</i>", <b>in <i>Proceedings of IEEE International Conference on Information Management and Engineering</i></b>, China.<br><br>
+					<li> A. Sanwaliya, K. Shanker and <b>Subhas C. Misra</b> (2010), "<i>Stock Portfolio Management: Prediction of Risk using Text Classification</i>", <b>in <i>Proceedings of International MultiConference of Engineers and Computer Scientists</i></b>, Hong Kong, Vol. I, pp. 621-625.<br><br>
+					<li> A. Sanwaliya, K. Shanker and <b>Subhas C. Misra</b> (2010), "<i>Categorization of News Articles: A Model Based Discriminative Term Extraction Method</i>", <b>in <i>Proceedings of the Second International Conference on Advances in Databases</i></b>, Knowledge, and Data Applications, Menuires, France, pp. 149-154.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Kumar and U. Kumar (2006), "<i>Success Factors for Agile Software Development</i>", <b>in <i>Proceedings of the International Conference on Software Engineering Research and Practice</i></b>, Nevada, USA, pp. 233-239.<br><br>
+					<li> <b>Subhas C. Misra</b>, V. Kumar, and U. Kumar (2006), "<i>Different Techniques for Risk Management in Software Engineering: Review</i>", <b>in <i>Proceedings of Administrative Sciences Association of Canada (Technology Management Track) Conference</i></b>, Banff, Canada, pp. 196-205.<br><br>
+					<li> <b>Subhas C. Misra</b>, U. Kumar, V. Kumar, and G. Grant (2006), "<i>Organizational Changes Required and Challenges Involved in Adopting Agile Software Development Methodologies in Traditional Software Development Organizations</i>", <b>in <i>Proceedings of the International Conference on Digital Information Management</i></b>, Bangalore, India, pp 25-28.<br><br>
+					<li> <b>Subhas C. Misra</i></b>, S. Misra, I. Lounging and P. Mahtani (2006), "<i>Using Troops to Model Quality of Service in Distribute Systems</i>", <b>in <i>Proceedings of the 8th International Conference on Advanced Communications Technologies</i></b>, Phoenix Park, Korea, pp. 541-547.<br><br>
+					<li> S. Misra, <b>Subhas C. Misra</i></b>, Isaac Woungang,(2006), "<i> The Unified Modelling Language-Based Modelling of GMPLS Networks</i>", <b>in <i>Proceedings of 8th International Conference on Advanced Communication Technologies</i></b>, IEEE Communications Society, Phoenix Park, Korea, pp. 541-366.<br><br>
+					<li> S. Misra, <b>Subhas C. Misra</i></b>, Isaac Woungang (2006), "<i> A Methodological Framework for Conceptual Modelling of Optical Networks</i>", <b>in <i>Proceedings of 8th International Conference on Advanced Communication Technologies</i></b>, IEEE Communications Society, Phoenix Park, Korea, pp. 160-166.<br><br>
+					<li> S. Misra, <b>Subhas C. Misra</i></b>, Isaac Woungang (2005), "<i> A Conceptual Modelling Framework for Internet Traffic Engineering Problems</i>", <b>in <i>Proceedings of 8th International Conference on Telecommunications (ConTel 2005)</i></b>, IEEE Communications Society, Zagreb, Croatia, pp. 121-128.<br><br>
+					<li> <b>Subhas C. Misra</i></b>, V. Kumar and U. Kumar (2005), "<i>A Strategic Modelling Technique for Change Management in Organization Undergoing BPR</i>", <b>in <i>Proceedings of the 7th International Conference on Enterprise Information Systems</i></b>, Miami, Florida, USA, Vol.3, pp. 447-450.<br><br>
+					<li> <b>Subhas C. Misra</i></b>, V. Kumar and U. Kumar (2005), "<i>Modelling Strategic Actor Relationships to Support Risk Analysis and Control in Software Projects</i>", <b>in <i>Proceedings of the 7th International Conference on Enterprise Information Systems</i></b>, Miami, Florida, USA, Vol. 3, pp. 288-293.<br><br>
+					<li> <b>Subhas C. Misra</i></b>, V. Kumar and U. Kumar (2005), "<i>An Approach for Modelling Information Systems Security Risk Assessment</i>", <b>in <i>Proceedings of the 3rd International Workshop on Security in Information Systems</i></b>, Miami, Florida, USA, pp.253-262.<br><br>
+					<li> <b>Subhas C. Misra</i></b>, V. Kumar and U. Kumar (2005), "<i>How Can i* Complement UML for Modelling Organizations?</i>", <b>in <i>Proceedings of the 18th IEEE Canadian Conference on Electrical and Computer Engineering</i></b>, Saskatoon, Saskatchewan, Canada, pp. 2319-2321.<br><br>
+					<li> <b>Subhas C. Misra</i></b>, V. Kumar and U. Kumar (2006), "<i>Goal-Oriented or Scenario-Based Requirements Engineering (RE) Technique – What Should a Practitioner Select?</i>", <b>in <i>Proceedings of the 18th IEEE Canadian Conference on Electrical and Computer Engineering</i></b>, Saskatoon, Saskatchewan, Canada, pp. 2314-2318.<br><br>
+					<li> <b>Subhas C. Misra</i></b>, V. Kumar and U. Kumar (2005), "<i>Strategic Modelling of Risk Management in Industries Undergoing BPR</i>", <b>in <i>Proceedings of the 8thInternational Conference on Business Information Systems (BIS)</i></b>, Poznan, Poland, pp.85-103.<br><br>
+					<li> <b>Subhas C. Misra</i></b>, V. Kumar and U. Kumar (2005),  "<i>Software Innovation Process Maturity Model</i>", <b>in <i>Proceedings of the 8th International Conference on Business Information Systems</i></b>, Poznan, Poland, pp.368-385.<br><br>
+					<li> <b>Subhas C. Misra</b> (2003), "<i>Tips on Software Quality Management</i>", <b>in <i>Proceedings of the 6th International Conference on Business Information Systems</i></b>, Colorado, USA, pp. 316-324.<br>
+					<b><u>(Outstanding) Best Student paper Award – Gold Medallion</u></b><br><br>
+					<li> <b>Subhas C. Misra</b> and V. C. Bhavsar (2003), "<i>Relationships Between Selected Software Measures and Latent Bug Density Guidelines for Improving Quality</i>", <b>In Lecture Notes in Computer Science</i></b>, Springer, LNCS 2003, pp. 724-744, 2003: International Conference on Computational Science and its Applications (CCSA)– Information Systems Track, Montreal, Canada.<br><br>
+					<li> <b>Subhas C. Misra</b> (2003), "<i>Factors that Affect Understandability of Software Systems</i>", <b>in <i>Proceedings of International Conference on Software Engineering Research and Practice</i></b>, Nevada, USA, Vol. 2, pp. 745-751.<br><br>
+					<li> <b>Subhas C. Misra</b> (2003), "<i>Modelling Factors for Improving Correctness of Software Systems – An Empirical Approach</i>", <b>in <i>Proceedings of the 16th IEEE Canadian Conference on Electrical and Computer Engineering</i></b>, Montreal, Canada, pp. 1355-1358.<br><br>
+					<li> <b>Subhas C. Misra</b> and S. Misra (2003),  "<i>Modelling Factors that Affect Quality of Software</i>", <b>in <i>Proceedings of the 11th International Conference on Software Quality Management</i></b>, Glasgow, U.K., pp. 167-178.<br><br>
+					<li> <b>Subhas C. Misra</b> (2003), "<i>How Do Design/Code Metrics Affect Program Difficulty? An Empirical Evaluation</i>", <b>in <i>Proceedings of CUSEC Software Engineering Conference</i></b>, Montreal, Canada, pp. 45-62.<br><br>
+					<li> <b>Subhas C. Misra</b> and S. Misra (2002), "<i>Heuristics for Controlling Quality of Object-Oriented Systems Early in the Software Lifecycle</i>", <b>in <i>Proceedings of the 12th International Conference on Software Quality</i></b>, Ottawa, Ontario, Canada.
+				</ol>
+			</font>
+
+			<br><br>
+			<h4 align="left"><font color="#536dfe">BOOKS PUBLISHED</font></h4>
+			<br>
+			<font size="3">
+				<ol start="113">
+					<li> S. Misra, I. Woungang and <b>Subhas C. Misra</b> (Eds.), <b>Guide to Wireless Sensor Networks</b>, Computer Communications and Networks Series, Springer-Verlag, London, U.K., June 2009, 809 pages, ISBN-10: 1848822170, ISBN-13:978-1848822177. (One of the top 25% most downloaded eBooks in the relevant Springer eBook Collection in 2012).<br><br>
+					<li>S. Misra, I. Woungang and <b>Subhas C. Misra</b> (Eds.), <b>Guide to Wireless Ad Hoc Networks</b>, Computer Communications and Networks Series, Springer-Verlag, London, U.K., February 2009, 632 pages, ISBN-10: 1848003277, ISBN-13:978-1848003279.(One of the top 25% most downloaded eBooks in the relevant Springer eBook Collection in 2012).<br><br>
+					<li>S. Misra, <b>Subhas C. Misra</b> and I. Woungang (Eds.), <b>Guide to Wireless Mesh Networks</b>, Springer Verlag, London, U.K., December 2008, ISBN-10:1848009089, ISBN-13: 978-1848009080. (One of the top 50% most downloaded eBooks in the relevant Springer eBook Collection in 2012).<br><br>
+					<li>I. Woungang, <b>Subhas C. Misra</b> and S. Misra (Eds.), <b>Selected Topics in Information and Coding Theory</b>, World Scientific, Singapore, June 2010, ISBN-10: 9812837167, ISBN-13: 978-9812837165.<br><br>
+					<li>S. Misra, <b>Subhas C. Misra</b> and I. Woungang (Eds.), <b>Selected Topics in Communication Networks and Distributed Systems</b>, World Scientific, Singapore, July 2009, ISBN-10: 9812839437, ISBN-13: 978-9812839435.
+
+				</ol>
+			</font>
+
+
+
+
+		<br><br><br><br><br><br>
+		<p align="center">Copyright 2019-2020. All Rights Reserved.</p>
+	   </div>
+	</div>
+</div>
+
+</span>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
