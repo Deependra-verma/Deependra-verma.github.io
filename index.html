@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deependra Verma — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #0c0c0c;
+      --ink-muted: #484848;
+      --ink-faint: #909090;
+      --bg: #f7f5f0;
+      --surface: #ffffff;
+      --accent: #1d4ed8;       /* professional blue */
+      --accent-dark: #1e3a8a;
+      --accent-light: #eff6ff;
+      --teal: #0f766e;
+      --teal-light: #f0fdfa;
+      --amber: #b45309;
+      --amber-light: #fffbeb;
+      --hero-bg: #0a1628;
+      --gold: #c9a84c;
+      --border: rgba(12,12,12,0.08);
+      --border-strong: rgba(12,12,12,0.16);
+      --radius: 8px;
+      --radius-lg: 18px;
+      --shadow: 0 4px 24px rgba(12,12,12,0.08);
+      --shadow-lg: 0 16px 48px rgba(12,12,12,0.13);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); font-size: 16px; line-height: 1.7; overflow-x: hidden; }
+
+    /* ══ NAV ══ */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 clamp(1rem, 4vw, 3.5rem); height: 64px;
+      background: rgba(10,22,40,0.97); backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .nav-logo { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.2rem; color: #fff; text-decoration: none; letter-spacing: -0.01em; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 1.75rem; list-style: none; }
+    .nav-links a { font-size: 0.78rem; font-weight: 500; color: rgba(255,255,255,0.55); text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+    .nav-cta { background: var(--accent); color: #fff; padding: 0.45rem 1.2rem; border-radius: var(--radius); font-size: 0.8rem; font-weight: 600; text-decoration: none; transition: background 0.2s, transform 0.15s; white-space: nowrap; }
+    .nav-cta:hover { background: #2563eb; transform: translateY(-1px); }
+
+    /* ══ HERO ══ */
+    .hero {
+      min-height: 100vh; padding-top: 64px;
+      background: var(--hero-bg);
+      display: grid; grid-template-columns: 1fr 420px;
+      position: relative; overflow: hidden;
+    }
+    /* animated grid bg */
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 72px 72px;
+      animation: gridPan 30s linear infinite;
+    }
+    @keyframes gridPan { from { background-position: 0 0; } to { background-position: 72px 72px; } }
+    .hero::after {
+      content: '';
+      position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(ellipse 65% 80% at 25% 50%, rgba(29,78,216,0.22) 0%, transparent 65%),
+                  radial-gradient(ellipse 45% 55% at 85% 15%, rgba(201,168,76,0.1) 0%, transparent 60%),
+                  radial-gradient(ellipse 35% 40% at 70% 85%, rgba(15,118,110,0.12) 0%, transparent 55%);
+    }
+
+    /* HERO LEFT */
+    .hero-left { display: flex; flex-direction: column; justify-content: center; padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 5vw, 4.5rem); position: relative; z-index: 2; }
+    .hero-eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 1.75rem; }
+    .hero-eyebrow-bar { width: 36px; height: 2px; background: var(--gold); }
+    .hero-eyebrow-text { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); }
+    .hero-name { font-family: 'Playfair Display', serif; font-size: clamp(3rem, 6.5vw, 5.8rem); font-weight: 900; line-height: 0.93; letter-spacing: -0.03em; color: #fff; margin-bottom: 1.5rem; }
+    .hero-name .outline { color: transparent; -webkit-text-stroke: 1.5px rgba(255,255,255,0.35); }
+    .hero-name .highlight { color: var(--gold); }
+
+    .hero-subtitle-wrap { margin-bottom: 0.6rem; min-height: 2rem; display: flex; align-items: center; gap: 8px; }
+    .hero-prefix { font-size: 0.95rem; color: rgba(255,255,255,0.45); font-weight: 300; }
+    .typed-text { font-size: 0.95rem; font-weight: 600; color: #fff; }
+    .cursor { display: inline-block; width: 2px; height: 1.1em; background: var(--gold); margin-left: 2px; animation: blink 0.9s step-end infinite; vertical-align: middle; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .hero-prev-roles { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.75rem; }
+    .prev-label { font-size: 0.75rem; color: rgba(255,255,255,0.35); font-weight: 400; white-space: nowrap; }
+    .prev-chip { font-size: 0.72rem; font-weight: 500; padding: 3px 10px; border-radius: 100px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); color: rgba(255,255,255,0.55); }
+
+    .hero-desc { font-size: 1rem; font-weight: 300; color: rgba(255,255,255,0.55); max-width: 500px; line-height: 1.85; margin-bottom: 2rem; }
+
+    /* badges */
+    .hero-badges { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-bottom: 2.5rem; }
+    .hero-badge { font-size: 0.72rem; font-weight: 500; padding: 4px 13px; border-radius: 100px; border: 1px solid rgba(255,255,255,0.14); color: rgba(255,255,255,0.65); background: rgba(255,255,255,0.05); letter-spacing: 0.02em; }
+    .hero-badge.blue  { border-color: rgba(29,78,216,0.5); color: #93c5fd; background: rgba(29,78,216,0.12); }
+    .hero-badge.teal  { border-color: rgba(15,118,110,0.5); color: #5eead4; background: rgba(15,118,110,0.1); }
+    .hero-badge.amber { border-color: rgba(180,83,9,0.5);  color: #fcd34d; background: rgba(180,83,9,0.1); }
+
+    /* stats row */
+    .hero-stats { display: flex; gap: 0; margin-bottom: 2.75rem; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius); overflow: hidden; width: fit-content; }
+    .hero-stat { padding: 1rem 1.75rem; text-align: center; }
+    .hero-stat + .hero-stat { border-left: 1px solid rgba(255,255,255,0.08); }
+    .hero-stat-val { font-family: 'Playfair Display', serif; font-size: 1.9rem; font-weight: 700; color: #fff; line-height: 1; }
+    .hero-stat-val sup { font-size: 0.85rem; color: var(--gold); vertical-align: super; }
+    .hero-stat-lbl { font-size: 0.68rem; color: rgba(255,255,255,0.38); margin-top: 4px; letter-spacing: 0.05em; text-transform: uppercase; }
+
+    /* action buttons */
+    .hero-actions { display: flex; gap: 0.85rem; flex-wrap: wrap; }
+    .btn-primary { background: var(--accent); color: #fff; padding: 0.8rem 1.9rem; border-radius: var(--radius); font-weight: 600; font-size: 0.88rem; text-decoration: none; transition: transform 0.15s, box-shadow 0.15s; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(29,78,216,0.4); }
+    .btn-ghost { background: transparent; color: rgba(255,255,255,0.75); padding: 0.8rem 1.9rem; border-radius: var(--radius); border: 1px solid rgba(255,255,255,0.2); font-weight: 400; font-size: 0.88rem; text-decoration: none; transition: all 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; }
+    .btn-ghost:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.45); color: #fff; }
+
+    /* HERO RIGHT — photo */
+    .hero-right { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: clamp(5rem, 10vw, 7rem) 3rem 2rem; position: relative; z-index: 2; }
+    .photo-wrap { position: relative; width: 100%; max-width: 300px; }
+    /* glow ring */
+    .photo-glow { position: absolute; inset: -20px; border-radius: 50%; background: radial-gradient(circle, rgba(29,78,216,0.25) 0%, transparent 70%); filter: blur(18px); z-index: 0; }
+    .photo-frame-box {
+      position: relative; z-index: 1;
+      width: 100%; aspect-ratio: 3/4;
+      border-radius: 20px; overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.04);
+    }
+    /* gold corner accents */
+    .photo-frame-box::before, .photo-frame-box::after { content: ''; position: absolute; width: 44px; height: 44px; border-color: var(--gold); border-style: solid; z-index: 3; }
+    .photo-frame-box::before { top: -1px; left: -1px; border-width: 2px 0 0 2px; border-radius: 3px 0 0 0; }
+    .photo-frame-box::after  { bottom: -1px; right: -1px; border-width: 0 2px 2px 0; border-radius: 0 0 3px 0; }
+    .photo-frame-img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+    /* placeholder shown when no real photo */
+    .photo-placeholder-inner { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; padding: 2rem; }
+    .avatar-ring { width: 130px; height: 130px; border-radius: 50%; border: 2px dashed rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; }
+    .avatar-initials { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 700; color: rgba(255,255,255,0.25); }
+    .photo-hint-txt { font-size: 0.68rem; color: rgba(255,255,255,0.2); letter-spacing: 0.06em; text-transform: uppercase; text-align: center; line-height: 1.7; }
+    /* corner accent opposite */
+    .photo-accent-br { position: absolute; bottom: -10px; left: -10px; width: 40px; height: 40px; border: 2px solid rgba(29,78,216,0.6); border-width: 0 0 2px 2px; border-radius: 0 0 0 4px; z-index: 2; }
+    .photo-accent-tl { position: absolute; top: -10px; right: -10px; width: 40px; height: 40px; border: 2px solid rgba(29,78,216,0.6); border-width: 2px 2px 0 0; border-radius: 0 4px 0 0; z-index: 2; }
+
+    /* availability pill */
+    .avail-pill { margin-top: 1.5rem; display: flex; align-items: center; gap: 0.6rem; font-size: 0.78rem; color: rgba(255,255,255,0.45); }
+    .avail-dot { width: 7px; height: 7px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 3px rgba(74,222,128,0.2); animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{box-shadow:0 0 0 3px rgba(74,222,128,0.2);}50%{box-shadow:0 0 0 6px rgba(74,222,128,0.07);} }
+
+    /* IIT Kanpur badge */
+    .iit-badge { margin-top: 0.85rem; display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; color: var(--gold); border: 1px solid rgba(201,168,76,0.3); padding: 4px 12px; border-radius: 100px; background: rgba(201,168,76,0.07); }
+
+    /* ══ SCROLL INDICATOR ══ */
+    .scroll-down { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 0.5rem; z-index: 2; text-decoration: none; }
+    .scroll-down span { font-size: 0.65rem; color: rgba(255,255,255,0.25); letter-spacing: 0.1em; text-transform: uppercase; }
+    .scroll-arrow { width: 24px; height: 24px; border-right: 1.5px solid rgba(255,255,255,0.2); border-bottom: 1.5px solid rgba(255,255,255,0.2); transform: rotate(45deg); animation: bounce 1.8s ease infinite; }
+    @keyframes bounce { 0%,100%{transform:rotate(45deg) translateY(0);}50%{transform:rotate(45deg) translateY(5px);} }
+
+    /* ══ SECTIONS SHARED ══ */
+    section { padding: clamp(4rem, 7vw, 5.5rem) clamp(1.25rem, 5vw, 4.5rem); }
+    .sec-label { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.85rem; }
+    .sec-label::after { content: ''; width: 32px; height: 1.5px; background: currentColor; }
+    .sec-title { font-family: 'Playfair Display', serif; font-size: clamp(1.75rem, 3.2vw, 2.6rem); font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 2.75rem; }
+    .sec-title em { color: var(--accent); font-style: normal; }
+    .sec-title .teal { color: var(--teal); }
+    .sec-title .amber { color: var(--amber); }
+
+    /* ══ ACHIEVEMENTS TICKER ══ */
+    .ticker-bar { background: var(--accent); overflow: hidden; padding: 0.65rem 0; white-space: nowrap; position: relative; }
+    .ticker-inner { display: inline-flex; gap: 0; animation: ticker 30s linear infinite; }
+    .ticker-inner:hover { animation-play-state: paused; }
+    @keyframes ticker { from{transform:translateX(0)}to{transform:translateX(-50%)} }
+    .ticker-item { font-size: 0.78rem; font-weight: 600; color: rgba(255,255,255,0.9); padding: 0 2.5rem; letter-spacing: 0.04em; display: inline-flex; align-items: center; gap: 0.6rem; }
+    .ticker-item::before { content: '★'; color: var(--gold); font-size: 0.65rem; }
+
+    /* ══ ABOUT ══ */
+    #about { background: var(--surface); border-top: 1px solid var(--border); }
+    .about-layout { display: grid; grid-template-columns: 1.15fr 1fr; gap: 5rem; align-items: start; }
+    .about-body { font-size: 0.97rem; color: var(--ink-muted); line-height: 1.9; }
+    .about-body p + p { margin-top: 1rem; }
+    .about-body strong { color: var(--ink); font-weight: 600; }
+    .about-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem; }
+    .about-card { background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.25rem; transition: box-shadow 0.2s; }
+    .about-card:hover { box-shadow: var(--shadow); }
+    .about-card-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .about-card-title { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 3px; }
+    .about-card-body { font-size: 0.8rem; color: var(--ink-muted); line-height: 1.65; }
+    .gate-banner { margin-top: 2rem; background: linear-gradient(135deg, var(--accent-dark), var(--accent)); border-radius: var(--radius-lg); padding: 1.25rem 1.5rem; display: flex; align-items: center; gap: 1rem; }
+    .gate-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 900; color: #fff; line-height: 1; }
+    .gate-lbl { font-size: 0.78rem; color: rgba(255,255,255,0.7); line-height: 1.5; }
+    .gate-lbl strong { color: #fff; font-size: 0.9rem; display: block; }
+
+    /* ══ SKILLS ══ */
+    #skills { background: var(--hero-bg); }
+    #skills .sec-label { color: var(--gold); }
+    #skills .sec-label::after { background: var(--gold); }
+    #skills .sec-title { color: #fff; }
+    .skills-columns { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.25rem; }
+    .skill-col { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius-lg); padding: 1.5rem; transition: background 0.2s, border-color 0.2s; }
+    .skill-col:hover { background: rgba(255,255,255,0.07); border-color: rgba(201,168,76,0.25); }
+    .skill-col-head { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1.1rem; }
+    .skill-col-head.blue  { color: #60a5fa; }
+    .skill-col-head.teal  { color: #2dd4bf; }
+    .skill-col-head.amber { color: var(--gold); }
+    .skill-col-head.purple { color: #c084fc; }
+    .skill-list li.purple::before { background: #c084fc; }
+    .skill-list { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .skill-list li { font-size: 0.87rem; color: rgba(255,255,255,0.68); display: flex; align-items: center; gap: 0.6rem; }
+    .skill-list li::before { content: ''; width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
+    .skill-list li.blue::before  { background: #60a5fa; }
+    .skill-list li.teal::before  { background: #2dd4bf; }
+    .skill-list li.amber::before { background: var(--gold); }
+    .skill-list li.green::before { background: #86efac; }
+
+    /* ══ EXPERIENCE ══ */
+    #experience { background: var(--bg); }
+    .exp-list { display: flex; flex-direction: column; gap: 1.5rem; }
+    .exp-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); transition: box-shadow 0.25s, transform 0.2s; }
+    .exp-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+    .exp-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; padding: 1.75rem 2rem; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+    .exp-role { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: var(--ink); margin-bottom: 3px; }
+    .exp-company { font-size: 0.92rem; color: var(--accent); font-weight: 600; }
+    .exp-badge { flex-shrink: 0; font-size: 0.72rem; font-weight: 600; padding: 5px 13px; border-radius: 100px; white-space: nowrap; align-self: flex-start; }
+    .exp-badge.current { background: #dcfce7; color: #166534; }
+    .exp-badge.past    { background: var(--accent-light); color: var(--accent-dark); }
+    .exp-badge.research{ background: var(--amber-light); color: var(--amber); }
+    .exp-body { padding: 1.75rem 2rem; }
+
+    /* OAI cards inside experience */
+    .oai-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
+    .oai-block { border-radius: var(--radius); padding: 1rem; }
+    .oai-block.obj  { background: var(--accent-light); border-left: 3px solid var(--accent); }
+    .oai-block.app  { background: var(--bg); border-left: 3px solid var(--ink-faint); }
+    .oai-block.imp  { background: var(--teal-light); border-left: 3px solid var(--teal); }
+    .oai-head { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.5rem; }
+    .oai-head.obj  { color: var(--accent); }
+    .oai-head.app  { color: var(--ink-faint); }
+    .oai-head.imp  { color: var(--teal); }
+    .oai-text { font-size: 0.83rem; color: var(--ink-muted); line-height: 1.65; }
+
+    .exp-bullets { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.25rem; }
+    .exp-bullets li { display: flex; align-items: flex-start; gap: 0.75rem; font-size: 0.9rem; color: var(--ink-muted); line-height: 1.7; }
+    .bullet-dot { flex-shrink: 0; margin-top: 8px; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+    .bullet-dot.teal  { background: var(--teal); }
+    .bullet-dot.amber { background: var(--amber); }
+
+    .exp-tags { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+    .tag { font-size: 0.73rem; font-weight: 500; padding: 3px 11px; border-radius: 100px; border: 1px solid var(--border-strong); color: var(--ink-muted); background: var(--bg); }
+
+    /* ══ PROJECTS ══ */
+    #projects { background: var(--surface); border-top: 1px solid var(--border); }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+    .proj-card { background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.75rem; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.22s; position: relative; overflow: hidden; }
+    .proj-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; transform: scaleX(0); transform-origin: left; transition: transform 0.3s; }
+    .proj-card.blue::before  { background: linear-gradient(to right, var(--accent), #60a5fa); }
+    .proj-card.teal::before  { background: linear-gradient(to right, var(--teal), #2dd4bf); }
+    .proj-card.amber::before { background: linear-gradient(to right, var(--amber), var(--gold)); }
+    .proj-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+    .proj-card:hover::before { transform: scaleX(1); }
+    .proj-num { font-family: 'Playfair Display', serif; font-size: 3.5rem; font-weight: 900; color: rgba(12,12,12,0.05); line-height: 1; margin-bottom: 0.25rem; }
+    .proj-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: var(--ink); margin-bottom: 0.35rem; }
+    .proj-mentor { font-size: 0.75rem; color: var(--ink-faint); margin-bottom: 0.85rem; }
+    .proj-desc { font-size: 0.86rem; color: var(--ink-muted); line-height: 1.78; margin-bottom: auto; }
+    .proj-impact { font-size: 0.8rem; font-weight: 600; margin-top: 1.1rem; padding-top: 0.9rem; border-top: 1px solid var(--border); display: flex; align-items: flex-start; gap: 0.4rem; }
+    .proj-impact.blue  { color: var(--accent); }
+    .proj-impact.teal  { color: var(--teal); }
+    .proj-impact.amber { color: var(--amber); }
+    .proj-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.85rem; }
+
+    /* ══ LEADERSHIP ══ */
+    #leadership { background: linear-gradient(135deg, #0a1628 0%, #0f2238 100%); }
+    #leadership .sec-label { color: var(--gold); }
+    #leadership .sec-label::after { background: var(--gold); }
+    #leadership .sec-title { color: #fff; }
+    .lead-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.09); border-radius: var(--radius-lg); overflow: hidden; }
+    .lead-header { padding: 2rem 2.5rem; border-bottom: 1px solid rgba(255,255,255,0.08); display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .lead-title { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 700; color: #fff; margin-bottom: 4px; }
+    .lead-sub { font-size: 0.85rem; color: rgba(255,255,255,0.45); font-style: italic; }
+    .lead-period { font-size: 0.72rem; font-weight: 600; padding: 5px 13px; border-radius: 100px; background: rgba(201,168,76,0.15); color: var(--gold); border: 1px solid rgba(201,168,76,0.3); white-space: nowrap; }
+    .lead-body { padding: 2rem 2.5rem; }
+    .lead-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+    .lead-stat-box { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius); padding: 1rem; text-align: center; }
+    .lead-stat-num { font-family: 'Playfair Display', serif; font-size: 1.7rem; font-weight: 700; color: var(--gold); line-height: 1; }
+    .lead-stat-lbl { font-size: 0.68rem; color: rgba(255,255,255,0.38); margin-top: 4px; }
+    .lead-bullets { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
+    .lead-bullets li { display: flex; align-items: flex-start; gap: 0.85rem; font-size: 0.9rem; color: rgba(255,255,255,0.65); line-height: 1.7; }
+    .lead-dot { flex-shrink: 0; margin-top: 9px; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
+
+    /* ══ EDUCATION ══ */
+    #education { background: var(--bg); border-top: 1px solid var(--border); }
+    .edu-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+    .edu-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.75rem 1.75rem 1.75rem 2.1rem; position: relative; overflow: hidden; box-shadow: var(--shadow); }
+    .edu-card::before { content: ''; position: absolute; top: 0; left: 0; bottom: 0; width: 4px; }
+    .edu-card.top::before { background: linear-gradient(to bottom, var(--accent), #60a5fa); }
+    .edu-card.mid::before { background: linear-gradient(to bottom, var(--teal), #2dd4bf); }
+    .edu-card.cert::before { background: linear-gradient(to bottom, var(--amber), var(--gold)); }
+    .edu-year { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.65rem; }
+    .edu-card.top  .edu-year { color: var(--accent); }
+    .edu-card.mid  .edu-year { color: var(--teal); }
+    .edu-card.cert .edu-year { color: var(--amber); }
+    .edu-degree { font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 700; color: var(--ink); margin-bottom: 3px; }
+    .edu-school { font-size: 0.85rem; color: var(--ink-muted); font-weight: 500; margin-bottom: 0.85rem; }
+    .edu-items { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .edu-items li { font-size: 0.82rem; color: var(--ink-faint); line-height: 1.55; display: flex; align-items: flex-start; gap: 0.5rem; }
+    .edu-items li::before { content: '·'; flex-shrink: 0; color: var(--ink-faint); font-weight: 700; }
+    .cpi-pill { display: inline-flex; align-items: center; gap: 0.4rem; background: var(--accent-light); color: var(--accent); font-size: 0.78rem; font-weight: 700; padding: 3px 10px; border-radius: 100px; margin-top: 0.75rem; }
+
+    /* ══ EXTRA CURRICULAR ══ */
+    #extra { background: var(--surface); border-top: 1px solid var(--border); }
+    .extra-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+    .extra-card { background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.25rem; transition: box-shadow 0.2s; }
+    .extra-card:hover { box-shadow: var(--shadow); }
+    .extra-icon { font-size: 1.6rem; margin-bottom: 0.6rem; }
+    .extra-title { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 4px; }
+    .extra-desc { font-size: 0.82rem; color: var(--ink-muted); line-height: 1.65; }
+
+    /* ══ CONTACT ══ */
+    #contact { background: var(--hero-bg); }
+    #contact .sec-label { color: var(--gold); }
+    #contact .sec-label::after { background: var(--gold); }
+    #contact .sec-title { color: #fff; }
+    .contact-wrap { display: grid; grid-template-columns: 1fr 1.15fr; gap: 5rem; align-items: start; }
+    .contact-info-list { display: flex; flex-direction: column; gap: 1.1rem; }
+    .c-item { display: flex; align-items: flex-start; gap: 0.9rem; }
+    .c-icon { width: 40px; height: 40px; flex-shrink: 0; border-radius: var(--radius); background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; font-size: 0.95rem; }
+    .c-label { font-size: 0.68rem; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1px; }
+    .c-value { font-size: 0.9rem; color: rgba(255,255,255,0.8); }
+    .c-value a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.18); transition: border-color 0.2s; }
+    .c-value a:hover { border-color: rgba(255,255,255,0.55); }
+    .social-row { display: flex; gap: 0.65rem; margin-top: 2rem; flex-wrap: wrap; }
+    .social-btn { display: flex; align-items: center; gap: 0.45rem; padding: 0.5rem 1rem; border-radius: var(--radius); border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.65); text-decoration: none; font-size: 0.78rem; font-weight: 500; transition: all 0.2s; }
+    .social-btn:hover { background: rgba(255,255,255,0.09); border-color: rgba(255,255,255,0.38); color: #fff; }
+    .contact-form { display: flex; flex-direction: column; gap: 0.9rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
+    .fg { display: flex; flex-direction: column; gap: 0.35rem; }
+    .fg label { font-size: 0.7rem; color: rgba(255,255,255,0.38); letter-spacing: 0.06em; text-transform: uppercase; }
+    .fg input, .fg textarea { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius); color: #fff; font-family: 'DM Sans', sans-serif; font-size: 0.88rem; padding: 0.75rem 1rem; outline: none; transition: border-color 0.2s; resize: none; }
+    .fg input::placeholder, .fg textarea::placeholder { color: rgba(255,255,255,0.22); }
+    .fg input:focus, .fg textarea:focus { border-color: var(--gold); }
+    .fg textarea { min-height: 110px; }
+    .btn-send { background: var(--accent); color: #fff; border: none; cursor: pointer; padding: 0.85rem 2rem; border-radius: var(--radius); font-family: 'DM Sans', sans-serif; font-size: 0.9rem; font-weight: 600; align-self: flex-start; transition: transform 0.15s, box-shadow 0.15s; }
+    .btn-send:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(29,78,216,0.4); }
+    .form-success { display: none; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius-lg); padding: 2.5rem; text-align: center; }
+    .form-success.show { display: block; }
+
+    /* ══ FOOTER ══ */
+    footer { background: #050d18; color: rgba(255,255,255,0.22); text-align: center; padding: 1.75rem 2rem; font-size: 0.78rem; }
+    footer span { color: var(--gold); }
+
+    /* ══ ANIMATIONS ══ */
+    .fade-up { opacity: 0; transform: translateY(22px); transition: opacity 0.55s ease, transform 0.55s ease; }
+    .fade-up.visible { opacity: 1; transform: none; }
+
+    /* ══ RESPONSIVE ══ */
+    @media(max-width:1100px){ .skills-columns{grid-template-columns:repeat(3,1fr);} .lead-stats{grid-template-columns:repeat(2,1fr);} }
+    @media(max-width:960px){
+      .hero{grid-template-columns:1fr; grid-template-rows: auto auto;}
+      .hero-right{ display:flex; padding: 1.5rem 2rem 0; justify-content: center; }
+      .photo-wrap{ max-width: 200px; }
+      .photo-frame-box{ aspect-ratio: 1/1; border-radius: 50%; }
+      .about-layout,.contact-wrap{grid-template-columns:1fr;gap:3rem;}
+      .edu-grid{grid-template-columns:1fr;}
+      .oai-grid{grid-template-columns:1fr;}
+      .form-row{grid-template-columns:1fr;}
+      nav{padding:0 1rem;}
+      .nav-links{display:none;}
+    }
+    @media(max-width:600px){ .hero-stats{flex-direction:column;width:100%;} .lead-stats{grid-template-columns:1fr 1fr;} .skills-columns{grid-template-columns:1fr;} .exp-card-top{flex-direction:column;} .photo-wrap{max-width:160px;} }
+  </style>
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <a href="#" class="nav-logo">Deependra<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#leadership">Leadership</a></li>
+    <li><a href="#education">Education</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Get in Touch →</a>
+</nav>
+
+<!-- ══ HERO ══ -->
+<div class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow">
+      <span class="hero-eyebrow-bar"></span>
+      <span class="hero-eyebrow-text">IIT Kanpur · B.Tech 2025 · MSE + CS (ML) · GATE 2025 Qualified</span>
+    </div>
+
+    <h1 class="hero-name">
+      Deependra<br/>
+      <span class="outline">Verma</span>
+    </h1>
+
+    <div class="hero-subtitle-wrap" style="flex-wrap:wrap; gap:6px; margin-bottom:0.5rem;">
+      <span class="hero-prefix">Currently</span>
+      <span class="typed-text">Project Management Engineer · Dimension Consultant Pte Ltd</span>
+    </div>
+    <div class="hero-prev-roles">
+      <span class="prev-label">Previously at</span>
+      <span class="prev-chip">HP Tech Ventures</span>
+      <span class="prev-chip">WorldQuant</span>
+      <span class="prev-chip">WorldRef Technologies</span>
+    </div>
+
+    <p class="hero-desc">
+      IIT Kanpur B.Tech graduate with a foundation in engineering and a minor in computer science. I enjoy working across consulting, project management, product thinking, and data analysis — translating complexity into clear outcomes. I am drawn to roles where structured problem-solving, stakeholder management, and data-informed decisions come together to drive real impact.
+    </p>
+
+    <div class="hero-badges">
+      <span class="hero-badge blue">Consulting &amp; Project Management</span>
+      <span class="hero-badge blue">Data Analytics</span>
+      <span class="hero-badge blue">Power BI · SQL</span>
+      <span class="hero-badge blue">Machine Learning</span>
+      <span class="hero-badge blue">Python · C++</span>
+    </div>
+
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-val">1<sup>yr</sup></div>
+        <div class="hero-stat-lbl">Experience</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-val">25<sup>+</sup></div>
+        <div class="hero-stat-lbl">Models Built</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-val">8<sup>+</sup></div>
+        <div class="hero-stat-lbl">Key Projects</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-val">200<sup>+</sup></div>
+        <div class="hero-stat-lbl">Team Led</div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- PHOTO PANEL -->
+  <div class="hero-right">
+    <div class="photo-wrap">
+      <div class="photo-glow"></div>
+      <div class="photo-frame-box">
+        <!--
+        ╔══════════════════════════════════════════════╗
+        ║  📸  HOW TO ADD YOUR PHOTO                   ║
+        ║  ─────────────────────────────────────────   ║
+        ║  1. Save your photo as:  photo.jpg           ║
+        ║     (or photo.png / photo.webp)              ║
+        ║  2. Put it in the SAME FOLDER as index.html  ║
+        ║  3. DELETE the <div class="photo-placeholder-inner"> ║
+        ║     block below (everything until </div>)    ║
+        ║  4. PASTE this line instead:                 ║
+        ║                                              ║
+        ║  <img src="photo.jpg"                        ║
+        ║       alt="Deependra Verma"                  ║
+        ║       class="photo-frame-img" />             ║
+        ╚══════════════════════════════════════════════╝
+        -->
+        <!-- <div class="photo-placeholder-inner">
+          <div class="avatar-ring">
+            <span class="avatar-initials">DV</span>
+          </div>
+          <div class="photo-hint-txt">Replace with<br/>your photo<br/>(photo.jpg)</div>
+        </div> -->
+        <img src="photo.jpg" alt="Deependra Verma" class="photo-frame-img"/>
+      </div>
+      <div class="photo-accent-br"></div>
+      <div class="photo-accent-tl"></div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-down">
+    <span>scroll</span>
+    <div class="scroll-arrow"></div>
+  </a>
+</div>
+
+<!-- ══ ACHIEVEMENTS TICKER ══ -->
+<div class="ticker-bar">
+  <div class="ticker-inner" id="ticker">
+    <span class="ticker-item">Top 15 · IITK Alphathon (WorldQuant)</span>
+    <span class="ticker-item">25+ Quantitative Alpha Models</span>
+    <span class="ticker-item">Core Team · Udghosh'24 · Asia's Largest College Sports Fest</span>
+    <span class="ticker-item">₹1 Crore Revenue Impact · WorldRef</span>
+    <span class="ticker-item">$12M Funding Identified · HP Tech Ventures</span>
+    <span class="ticker-item">1M+ Digital Reach · Udghosh'24</span>
+    <!-- duplicated for seamless loop -->
+    <span class="ticker-item">Top 15 · IITK Alphathon (WorldQuant)</span>
+    <span class="ticker-item">25+ Quantitative Alpha Models</span>
+    <span class="ticker-item">Core Team · Udghosh'24 · Asia's Largest College Sports Fest</span>
+    <span class="ticker-item">₹1 Crore Revenue Impact · WorldRef</span>
+    <span class="ticker-item">$12M Funding Identified · HP Tech Ventures</span>
+    <span class="ticker-item">1M+ Digital Reach · Udghosh'24</span>
+  </div>
+</div>
+
+<!-- ══ ABOUT ══ -->
+<section id="about">
+  <div class="sec-label">About Me</div>
+  <div class="about-layout">
+    <div>
+      <h2 class="sec-title">Engineer. Analyst.<br/><em>Problem Solver.</em></h2>
+      <div class="about-body">
+        <p>I'm <strong>Deependra Verma</strong> — a 2025 B.Tech graduate from <strong>IIT Kanpur</strong> in Materials Science &amp; Engineering with a Minor in Computer Science (Machine Learning). I currently work as a <strong>Project Management Engineer</strong> at Dimension Consultant Pte Ltd, where I manage end-to-end engineering project lifecycles and CAD-certified design workflows.</p>
+        <p>My interests sit at the intersection of <strong>data science, engineering systems, and quantitative research</strong>. I've built 25+ predictive alpha models for global markets at WorldQuant, identified a $12M investment opportunity at HP Tech Ventures, and delivered ₹1 Crore+ revenue impact through market research at WorldRef Technology.</p>
+        <p>Beyond technical work, I served as a core team member of <strong>Udghosh'24</strong> — one of Asia's largest college sports festivals — developing leadership, operations management, and stakeholder coordination skills that complement my analytical toolkit.</p>
+        <p>I'm actively looking for roles that challenge me across data, engineering, or business — wherever structured thinking and execution matter.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="about-cards">
+        <div class="about-card fade-up">
+          <div class="about-card-icon">🤝</div>
+          <div class="about-card-title">Leadership</div>
+          <div class="about-card-body">Core team member of Udghosh'24. Coordinated 17+ events with 40K+ spectators across Asia's largest college sports fest.</div>
+        </div>
+        <div class="about-card fade-up">
+          <div class="about-card-icon">📊</div>
+          <div class="about-card-title">Data &amp; Analytics</div>
+          <div class="about-card-body">Power BI dashboards, SQL pipelines, ML models — turning raw data into decisions.</div>
+        </div>
+        <div class="about-card fade-up">
+          <div class="about-card-icon">🧠</div>
+          <div class="about-card-title">Machine Learning</div>
+          <div class="about-card-body">Fraud detection, churn prediction, health monitoring — applied ML across domains.</div>
+        </div>
+        <div class="about-card fade-up">
+          <div class="about-card-icon">⚙️</div>
+          <div class="about-card-title">Engineering Rigour</div>
+          <div class="about-card-body">CAD, SolidWorks, Femap — certified designs validated by DNV &amp; Bureau Veritas.</div>
+        </div>
+        <div class="about-card fade-up">
+          <div class="about-card-icon">📈</div>
+          <div class="about-card-title">Quant Research</div>
+          <div class="about-card-body">25+ alpha models built at WorldQuant using mean-reversion &amp; momentum strategies.</div>
+        </div>
+        <div class="about-card fade-up">
+          <div class="about-card-icon">🌍</div>
+          <div class="about-card-title">Global Exposure</div>
+          <div class="about-card-body">Market analysis across Indonesia, China, South Korea. Currently based in Singapore.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SKILLS ══ -->
+<section id="skills">
+  <div class="sec-label">Technical Toolkit</div>
+  <h2 class="sec-title" style="color:#fff;">Skills that <em style="color:var(--gold)">ship work</em></h2>
+  <div class="skills-columns">
+    <div class="skill-col fade-up">
+      <div class="skill-col-head purple">Leadership &amp; PM</div>
+      <ul class="skill-list">
+        <li class="purple">End-to-End Project Lifecycle</li>
+        <li class="purple">Cross-Functional Coordination</li>
+        <li class="purple">Stakeholder Reporting</li>
+        <li class="purple">Root-Cause Analysis</li>
+        <li class="purple">Team Management (200+)</li>
+        <li class="purple">Operations &amp; Event Management</li>
+      </ul>
+    </div>
+    <div class="skill-col fade-up">
+      <div class="skill-col-head teal">Data &amp; Analytics</div>
+      <ul class="skill-list">
+        <li class="teal">Power BI</li>
+        <li class="teal">MySQL</li>
+        <li class="teal">MS Excel (Advanced)</li>
+        <li class="teal">Correlation &amp; Regression</li>
+        <li class="teal">Data Visualization</li>
+        <li class="teal">Volza (Trade Intel)</li>
+      </ul>
+    </div>
+    <div class="skill-col fade-up">
+      <div class="skill-col-head blue">Programming</div>
+      <ul class="skill-list">
+        <li class="blue">Python</li>
+        <li class="blue">C / C++</li>
+        <li class="blue">SQL</li>
+        <li class="blue">HTML / CSS / JS</li>
+        <li class="blue">NumPy · Pandas</li>
+        <li class="blue">Matplotlib · Scikit-Learn</li>
+      </ul>
+    </div>
+    <div class="skill-col fade-up">
+      <div class="skill-col-head" style="color:#86efac;">Tools &amp; Platforms</div>
+      <ul class="skill-list">
+        <li class="green">GitHub / Git</li>
+        <li class="green">Unity (AR/VR)</li>
+        <li class="green">Canvas</li>
+        <li class="green">Tinkercad / Arduino</li>
+        <li class="green">Machine Learning (Supervised)</li>
+        <li class="green">Quantitative Modelling</li>
+      </ul>
+    </div>
+    <div class="skill-col fade-up">
+      <div class="skill-col-head amber">Engineering</div>
+      <ul class="skill-list">
+        <li class="amber">SolidWorks</li>
+        <li class="amber">Femap (FEA)</li>
+        <li class="amber">ZWCAD</li>
+        <li class="amber">Fusion360</li>
+        <li class="amber">SkyCiv</li>
+        <li class="amber">3D Printing / Fabrication</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EXPERIENCE ══ -->
+<section id="experience">
+  <div class="sec-label">Professional Experience</div>
+  <h2 class="sec-title">Where I've <em>created impact</em></h2>
+  <div class="exp-list">
+
+    <!-- 1. Dimension Consultant -->
+    <div class="exp-card fade-up">
+      <div class="exp-card-top">
+        <div>
+          <div class="exp-role">Project Management Engineer</div>
+          <div class="exp-company">Dimension Consultant Pte Ltd</div>
+        </div>
+        <span class="exp-badge current">July 2025 – Present · Current</span>
+      </div>
+      <div class="exp-body">
+        <ul class="exp-bullets">
+          <li><span class="bullet-dot"></span><span>Directed end-to-end project lifecycles from conceptual design through client delivery, coordinating cross-functional engineering teams across mechanical and structural domains.</span></li>
+          <li><span class="bullet-dot"></span><span>Developed and maintained a Master Deliverables Register tracking hundreds of components — improving visibility, accountability, and delivery efficiency across the project.</span></li>
+          <li><span class="bullet-dot"></span><span>Led milestone reviews, identified schedule bottlenecks, performed root-cause analysis, and implemented corrective strategies to ensure adherence to project timelines.</span></li>
+          <li><span class="bullet-dot"></span><span>Prepared comprehensive progress reports and delivery forecasts, enhancing stakeholder transparency and enabling data-driven decision-making at the leadership level.</span></li>
+          <li><span class="bullet-dot"></span><span>Validated engineering designs via CAD-SolidWorks-Femap integrated workflows, securing certifications from <strong>DNV</strong> and <strong>Bureau Veritas</strong> for fabrication readiness and compliance.</span></li>
+          <li><span class="bullet-dot"></span><span>Created 35+ engineering drawings in ZWCAD; analysed structures in Femap with loads, constraints, and meshing; completed 15 SolidWorks drawings from ModelMania.</span></li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">Project Management</span><span class="tag">SolidWorks</span><span class="tag">Femap</span><span class="tag">ZWCAD</span><span class="tag">DNV Certification</span><span class="tag">CAD</span><span class="tag">Stakeholder Reporting</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. HP Tech Ventures -->
+    <div class="exp-card fade-up">
+      <div class="exp-card-top">
+        <div>
+          <div class="exp-role">Venture Capital &amp; Business Analyst Extern</div>
+          <div class="exp-company">HP Tech Ventures</div>
+        </div>
+        <span class="exp-badge past">May 2024 – June 2024</span>
+      </div>
+      <div class="exp-body">
+        <ul class="exp-bullets">
+          <li><span class="bullet-dot teal"></span><span>Analysed venture capital funding structures and startup ecosystems to source investment opportunities aligned with HP's strategic evaluation criteria.</span></li>
+          <li><span class="bullet-dot teal"></span><span>Performed deep-dive analysis using correlation and regression techniques, visualising insights through Excel, MySQL, and Power BI dashboards for senior stakeholders.</span></li>
+          <li><span class="bullet-dot teal"></span><span><strong>Identified high-potential startups and recommended investments</strong> — contributing to a venture that secured <strong>$12 million in funding</strong> following evaluation.</span></li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">Venture Capital</span><span class="tag">Startup Analysis</span><span class="tag">Power BI</span><span class="tag">MySQL</span><span class="tag">Excel</span><span class="tag">Regression Analysis</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. WorldQuant -->
+    <div class="exp-card fade-up">
+      <div class="exp-card-top">
+        <div>
+          <div class="exp-role">Research Consultant</div>
+          <div class="exp-company">WorldQuant</div>
+        </div>
+        <span class="exp-badge past">Feb 2023 – Nov 2023</span>
+      </div>
+      <div class="exp-body">
+        <ul class="exp-bullets">
+          <li><span class="bullet-dot teal"></span><span>Researched and developed predictive mathematical models (Alphas) to forecast global financial market trends with precision and reliability.</span></li>
+          <li><span class="bullet-dot teal"></span><span>Leveraged WorldQuant's datasets, research materials, and simulation environment to generate, test, and iteratively refine quantitative alpha strategies.</span></li>
+          <li><span class="bullet-dot teal"></span><span>Combined <strong>mean-reversion and momentum techniques</strong> to build market-neutral long-short trading strategies — developed <strong>25+ predictive models</strong> that improved investment decision quality.</span></li>
+          <li><span class="bullet-dot teal"></span><span>Secured a <strong>Top 15 position</strong> in IITK Alphathon — a competitive quantitative event organised by WorldQuant, demonstrating applied excellence.</span></li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">Quantitative Research</span><span class="tag">Alpha Modelling</span><span class="tag">Financial Markets</span><span class="tag">Mean Reversion</span><span class="tag">Momentum Strategy</span><span class="tag">Python</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. WorldRef -->
+    <div class="exp-card fade-up">
+      <div class="exp-card-top">
+        <div>
+          <div class="exp-role">Market Research Analyst Intern</div>
+          <div class="exp-company">WorldRef Technology</div>
+        </div>
+        <span class="exp-badge past">Feb 2023 – May 2023</span>
+      </div>
+      <div class="exp-body">
+        <ul class="exp-bullets">
+          <li><span class="bullet-dot"></span><span>Analysed market trends across <strong>Indonesia, China, and South Korea</strong> to identify product demand opportunities within high-growth emerging business sectors.</span></li>
+          <li><span class="bullet-dot"></span><span>Built structured company databases and evaluated import-export activities using Volza to generate actionable market intelligence reports for clients.</span></li>
+          <li><span class="bullet-dot"></span><span>Delivered data-driven recommendations that <strong>secured 3 new clients</strong>, strengthened market positioning, and generated <strong>revenue growth of ₹1+ Crore</strong>.</span></li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">Market Research</span><span class="tag">Volza</span><span class="tag">Trade Analysis</span><span class="tag">Excel</span><span class="tag">Client Acquisition</span><span class="tag">Asia-Pacific Markets</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ PROJECTS ══ -->
+<section id="projects">
+  <div class="sec-label">Key Projects</div>
+  <h2 class="sec-title">Built, <em>shipped</em>, and <span class="teal">measured</span></h2>
+  <div class="projects-grid">
+    <div class="proj-card blue fade-up">
+      <div class="proj-num">01</div>
+      <div class="proj-title">Health Monitoring Wearable with ML</div>
+      <div class="proj-mentor">Mentor: Prof. Amar Behera · IIT Kanpur · Jul–Dec 2024</div>
+      <div class="proj-desc">Developed a sensor-based wearable device that monitors cholesterol, body temperature, and heart rate using machine learning. Researched sensing technologies, 3D-printed an integrated hardware shell, and trained supervised ML models to analyse physiological data streams.</div>
+      <div class="proj-impact blue">Real-time health metrics via Wi-Fi &amp; integrated display — enhanced personal health monitoring accessibility</div>
+      <div class="proj-tags"><span class="tag">Machine Learning</span><span class="tag">Scikit-Learn</span><span class="tag">3D Printing</span><span class="tag">IoT / Wi-Fi</span><span class="tag">Sensor Design</span></div>
+    </div>
+
+    <div class="proj-card teal fade-up">
+      <div class="proj-num">02</div>
+      <div class="proj-title">Strategic Analytics Dashboard</div>
+      <div class="proj-mentor">Self Project · Nov–Dec 2023</div>
+      <div class="proj-desc">Built a full-stack analytical solution performing data extraction, transformation, and visualisation using MySQL, Excel, and Power BI. Created interactive dashboards with pivot tables and drill-through views to surface patterns, trends, and business insights for strategic decision-making.</div>
+      <div class="proj-impact teal">Delivered clear visualisations that improved data interpretation speed and enabled faster strategic planning</div>
+      <div class="proj-tags"><span class="tag">Power BI</span><span class="tag">MySQL</span><span class="tag">Excel</span><span class="tag">Data Visualisation</span><span class="tag">ETL</span></div>
+    </div>
+
+    <div class="proj-card teal fade-up">
+      <div class="proj-num">03</div>
+      <div class="proj-title">Marketing Management</div>
+      <div class="proj-mentor">Self Project · Jan'24 – March'24</div>
+      <div class="proj-desc">Conducted hands-on marketing analysis across three real-world brands. For <strong>Box Homes</strong>, strategized growth by enhancing customer engagement and retention, improving key sales KPIs by 4.57%. For <strong>Accor</strong>, researched digital marketing strategy in hospitality via STP &amp; SWOT across 8+ hotel groups — identifying a 38% profit opportunity through OTA collaboration. For <strong>Red Bull</strong>, explored GTM strategy and performed 4P's analysis for business insights and marketing diversification.</div>
+      <div class="proj-impact teal">Box Homes KPIs ↑ 4.57% · Accor 38% profit via OTA · Red Bull GTM &amp; 4P's insights</div>
+      <div class="proj-tags"><span class="tag">Marketing Strategy</span><span class="tag">STP &amp; SWOT</span><span class="tag">GTM Analysis</span><span class="tag">4P's Framework</span><span class="tag">OTA Collaboration</span><span class="tag">Customer Retention</span></div>
+    </div>
+
+    <div class="proj-card teal fade-up">
+      <div class="proj-num">04</div>
+      <div class="proj-title">ML Models — Fraud, Churn &amp; Spam</div>
+      <div class="proj-mentor">Self Project · Technical ML Initiative</div>
+      <div class="proj-desc">Developed independent ML models for three distinct real-world classification problems: credit card fraud detection, customer churn prediction, and spam SMS classification. Applied feature engineering, model selection, and evaluation pipelines using Python and Scikit-Learn.</div>
+      <div class="proj-impact teal">Three production-grade ML classifiers demonstrating applied supervised learning across domains</div>
+      <div class="proj-tags"><span class="tag">Python</span><span class="tag">Scikit-Learn</span><span class="tag">Classification</span><span class="tag">Feature Engineering</span><span class="tag">Pandas</span></div>
+    </div>
+
+    <div class="proj-card blue fade-up">
+      <div class="proj-num">05</div>
+      <div class="proj-title">Data Science With R</div>
+      <div class="proj-mentor">Stamatics Project · IIT Kanpur · July'22 – Sept'22</div>
+      <div class="proj-desc">Gained foundational expertise in R and HTML to enable efficient data analysis and web scraping. Employed HTML for web scraping and image manipulation, and R with RCPP to perform optimised data analysis tasks. Combined R and HTML skills to enhance data processing efficiency, performance, and analytical capabilities.</div>
+      <div class="proj-impact blue">Enhanced data processing and analysis by integrating R and HTML — leading to optimised performance and expanded analytical capabilities</div>
+      <div class="proj-tags"><span class="tag">R</span><span class="tag">HTML</span><span class="tag">Web Scraping</span><span class="tag">RCPP</span><span class="tag">Data Analysis</span><span class="tag">Stamatics · IITK</span></div>
+    </div>
+
+    <div class="proj-card amber fade-up">
+      <div class="proj-num">06</div>
+      <div class="proj-title">25+ Quantitative Alpha Models</div>
+      <div class="proj-mentor">WorldQuant Research · 2023</div>
+      <div class="proj-desc">Developed over 25 predictive mathematical models (Alphas) at WorldQuant to forecast global market movements. Combined mean-reversion and momentum-based techniques to construct market-neutral long-short strategies, tested and refined within WorldQuant's simulation environment.</div>
+      <div class="proj-impact amber">Top 15 at IITK Alphathon — models validated for precision, reliability, and market-neutral performance</div>
+      <div class="proj-tags"><span class="tag">Quant Finance</span><span class="tag">Alpha Research</span><span class="tag">Mean Reversion</span><span class="tag">Momentum</span><span class="tag">Python</span></div>
+    </div>
+
+    <div class="proj-card amber fade-up">
+      <div class="proj-num">07</div>
+      <div class="proj-title">Automated Stamping Machine</div>
+      <div class="proj-mentor">Course Project: TA202 · Aug–Nov 2022</div>
+      <div class="proj-desc">Designed and built a prototype automated ticket-printing machine with an 8-member team. Formulated a 3D model in Fusion360, manufactured steel components via lathing, 3D printing, and welding. Simulated electrical components on Tinkercad and programmed Arduino for full automation.</div>
+      <div class="proj-impact amber">Fully functional automated machine — demonstrated operational efficiency and cross-discipline integration</div>
+      <div class="proj-tags"><span class="tag">Fusion360</span><span class="tag">Arduino</span><span class="tag">Tinkercad</span><span class="tag">Welding</span><span class="tag">Manufacturing</span></div>
+    </div>
+
+    <div class="proj-card blue fade-up">
+      <div class="proj-num">08</div>
+      <div class="proj-title">Mini Boat — Sheet Metal Manufacturing</div>
+      <div class="proj-mentor">Course Project: TA201 · Jan–Apr 2023</div>
+      <div class="proj-desc">Created a boat prototype using sheet metal with a 10-member team. Designed a 3D model on Fusion360, manufactured steel components through sheet forming and welding. Applied grinding, washing, and polishing techniques for precision surface finishing and structural integrity.</div>
+      <div class="proj-impact blue">Well-finished, optimised boat prototype demonstrating advanced manufacturing &amp; design process proficiency</div>
+      <div class="proj-tags"><span class="tag">Fusion360</span><span class="tag">Sheet Forming</span><span class="tag">Welding</span><span class="tag">Surface Finishing</span><span class="tag">Team Manufacturing</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ LEADERSHIP ══ -->
+<section id="leadership">
+  <div class="sec-label">Leadership &amp; Responsibility</div>
+  <h2 class="sec-title" style="color:#fff;">Leading from the <em style="color:var(--gold)">front</em></h2>
+  <div class="lead-card fade-up">
+    <div class="lead-header">
+      <div>
+        <div class="lead-title">Core Team Member — Udghosh'24</div>
+        <div class="lead-sub">20th Edition · Annual Sports Festival of IIT Kanpur · One of Asia's Largest College Sports Festivals (Budget: ₹1 Crore · 1,00,000+ Footfalls)</div>
+      </div>
+      <span class="lead-period">July 2024 – March 2025</span>
+    </div>
+    <div class="lead-body">
+      <div class="lead-stats">
+        <div class="lead-stat-box">
+          <div class="lead-stat-num">200+</div>
+          <div class="lead-stat-lbl">Team Members</div>
+        </div>
+        <div class="lead-stat-box">
+          <div class="lead-stat-num">17+</div>
+          <div class="lead-stat-lbl">Sports &amp; Events</div>
+        </div>
+        <div class="lead-stat-box">
+          <div class="lead-stat-num">40K+</div>
+          <div class="lead-stat-lbl">Live Spectators</div>
+        </div>
+        <div class="lead-stat-box">
+          <div class="lead-stat-num">1M+</div>
+          <div class="lead-stat-lbl">Global Digital Reach</div>
+        </div>
+      </div>
+      <ul class="lead-bullets">
+        <li><span class="lead-dot"></span><span>Served as a core team member within the four-tier operations structure — collaborating with PSOs, GSOs, SSOs, and SOs to ensure seamless festival execution across all event days.</span></li>
+        <li><span class="lead-dot"></span><span>Played a key role in implementing a new secure entry system for pronites, contributing to zero unauthorised access incidents and smooth ingress management for 10,000+ attendees.</span></li>
+        <li><span class="lead-dot"></span><span>Actively contributed to building a dedicated communication channel between operations and admin teams, improving real-time coordination and response efficiency during live events.</span></li>
+        <li><span class="lead-dot"></span><span>Supported the <em>Udaan</em> inclusion initiative — empowering specially-abled students — which boosted participation in Mr. Udghosh by <strong>100%</strong>.</span></li>
+        <li><span class="lead-dot"></span><span>Coordinated across the execution of 17+ sports, marathon, and e-sports events involving 5,000+ participants and 40,000+ spectators throughout the festival.</span></li>
+        <li><span class="lead-dot"></span><span>Contributed to a <strong>20% year-on-year jump</strong> in digital reach, helping grow Udghosh's global audience to approximately <strong>1 million viewers</strong> worldwide.</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="lead-card fade-up" style="margin-top:1.5rem;">
+    <div class="lead-header">
+      <div>
+        <div class="lead-title">Organizer — DJWar Antaragni'23</div>
+        <div class="lead-sub">58th Edition · Annual Cultural Festival Of IIT Kanpur</div>
+      </div>
+      <span class="lead-period">July 2023 – May 2024</span>
+    </div>
+    <div class="lead-body">
+      <div class="lead-stats">
+        <div class="lead-stat-box">
+          <div class="lead-stat-num">80+</div>
+          <div class="lead-stat-lbl">Team Members</div>
+        </div>
+        <div class="lead-stat-box">
+          <div class="lead-stat-num">7+</div>
+          <div class="lead-stat-lbl">Zonal Road Trips</div>
+        </div>
+        <div class="lead-stat-box">
+          <div class="lead-stat-num">25+</div>
+          <div class="lead-stat-lbl">Sponsor Companies</div>
+        </div>
+        <div class="lead-stat-box">
+          <div class="lead-stat-num">₹15L+</div>
+          <div class="lead-stat-lbl">Sponsorship Worth</div>
+        </div>
+      </div>
+      <ul class="lead-bullets">
+        <li><span class="lead-dot"></span><span>Spearheaded a 3-tier team of 30 Secretaries and 50 Volunteers for the smooth conduction of the DJWar event.</span></li>
+        <li><span class="lead-dot"></span><span>Coordinated with other vertical organizers, heads, and participants to ensure the smooth execution of the event.</span></li>
+        <li><span class="lead-dot"></span><span>Conducted over 7+ zonal road trips nationwide, achieving a 30% YoY increase in the festival's reach and impact.</span></li>
+        <li><span class="lead-dot"></span><span>Initiated and procured sponsorship deals with 25+ companies and DJ institutes, securing total sponsorship worth ₹15+ lakhs.</span></li>
+        <li><span class="lead-dot"></span><span>Introduced certification for prelims winners and streamlined logistics for smooth and efficient sponsor collaboration.</span></li>
+        <li><span class="lead-dot"></span><span>Implemented event marketing that boosted the budget by 25% and automated tasks for 3,000+ attendees — achieved a remarkable 40% YoY increase in participation.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EDUCATION ══ -->
+<section id="education">
+  <div class="sec-label">Education</div>
+  <h2 class="sec-title">The <em>foundation</em> behind the work</h2>
+  <div class="edu-grid">
+    <div class="edu-card top fade-up">
+      <div class="edu-year">2021 – 2025</div>
+      <div class="edu-degree">B.Tech — Materials Science &amp; Engineering</div>
+      <div class="edu-school">Indian Institute of Technology Kanpur</div>
+      <div class="cpi-pill">CPI: 7.2 / 10</div>
+      <ul class="edu-items" style="margin-top:0.85rem;">
+        <li>GATE 2025 Qualified — All India Rank 671, demonstrating strong quantitative aptitude &amp; conceptual clarity</li>
+        <li>Minor in Computer Science &amp; Engineering (Machine Learning)</li>
+        <li>Top 15 · IITK Alphathon (WorldQuant)</li>
+        <li>Courses: ML, DSA, Computing, Electronics, Computer Graphics, Web Dev</li>
+        <li>Materials: Mechanical Behaviour, Solidification, Iron &amp; Steelmaking, Extraction</li>
+      </ul>
+    </div>
+    <div class="edu-card mid fade-up">
+      <div class="edu-year">2020 · CBSE Class XII</div>
+      <div class="edu-degree">Senior Secondary (Science)</div>
+      <div class="edu-school">Emmanuel Mission School, Talwandi, Rajasthan</div>
+      <div class="cpi-pill" style="background:var(--teal-light);color:var(--teal);">90.4%</div>
+      <ul class="edu-items" style="margin-top:0.85rem;">
+        <li>Strong foundation in Physics, Mathematics, and Chemistry</li>
+      </ul>
+      <div class="edu-year" style="margin-top:1.25rem;">2018 · CBSE Class X</div>
+      <div class="edu-degree">Secondary School</div>
+      <div class="edu-school">Little Flower Convent School, Powayan, UP</div>
+      <div class="cpi-pill" style="background:var(--teal-light);color:var(--teal);">95.0%</div>
+      <ul class="edu-items" style="margin-top:0.65rem;">
+        <li>Ranked <strong>1st</strong> at Sub-district level</li>
+        <li>Honoured with Student of the Year — LIC Award (Class VIII)</li>
+      </ul>
+    </div>
+    <div class="edu-card cert fade-up">
+      <div class="edu-year">Certifications &amp; Achievements</div>
+      <div class="edu-degree">Courses &amp; Honours</div>
+      <div class="edu-school">Various Platforms &amp; Institutions</div>
+      <ul class="edu-items" style="margin-top:0.85rem;">
+        <li>Web Development — Coursera</li>
+        <li>Design for AR and VR — IIT Kanpur</li>
+        <li>Machine Learning — Coursework + Applied Projects</li>
+        <li>1st Division · Akhil Bhartiya Sanskriti Gyan Pariksha (Vidya Bharati)</li>
+        <li>Student of the Year — LIC Award (Class VIII)</li>
+        <li>GATE 2025 Qualified — AIR 671 (Top Percentile)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EXTRA-CURRICULAR ══ -->
+<section id="extra">
+  <div class="sec-label">Beyond Work</div>
+  <h2 class="sec-title">Activities &amp; <em>Interests</em></h2>
+  <div class="extra-grid">
+    <div class="extra-card fade-up">
+      <div class="extra-icon">🎭</div>
+      <div class="extra-title">Hall Parade — Cultural Lead</div>
+      <div class="extra-desc">Led the interhall parade on theme "Covid in the Galaxy'23" — showcasing creativity, team direction, and storytelling under IITK's competitive cultural circuit.</div>
+    </div>
+    <div class="extra-card fade-up">
+      <div class="extra-icon">💃</div>
+      <div class="extra-title">Dance — IITK Freshers'21</div>
+      <div class="extra-desc">Performed in the Freshers' Dance Showcase organised by IITK Dance Club — part of a 20+ member ensemble, demonstrating teamwork and stage presence.</div>
+    </div>
+    <div class="extra-card fade-up">
+      <div class="extra-icon">🌱</div>
+      <div class="extra-title">Save Soil — Sadhguru Movement</div>
+      <div class="extra-desc">Facilitated a session of the Youth and Truth Movement by Sadhguru, contributing to a campaign with 1 million+ reach and 5,000+ in-person footfalls.</div>
+    </div>
+    <div class="extra-card fade-up">
+      <div class="extra-icon">🌳</div>
+      <div class="extra-title">Adopt a Tree Campaign</div>
+      <div class="extra-desc">Managed a campus conservation campaign distributing 300+ saplings, with an expected community outreach of 10,000+ people for environmental awareness.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact">
+  <div class="sec-label">Get In Touch</div>
+  <h2 class="sec-title">Let's <em>connect</em></h2>
+  <div class="contact-wrap">
+    <div>
+      <div class="contact-info-list">
+        <div class="c-item">
+          <div class="c-icon">📧</div>
+          <div>
+            <div class="c-label">Email</div>
+            <div class="c-value"><a href="mailto:deependrav4566@gmail.com">deependrav4566@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">📱</div>
+          <div>
+            <div class="c-label">Phone</div>
+            <div class="c-value">+91 79852 64566</div>
+          </div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">🎓</div>
+          <div>
+            <div class="c-label">Education</div>
+            <div class="c-value">B.Tech IIT Kanpur · 2025 Graduate</div>
+          </div>
+        </div>
+      </div>
+      <div class="social-row">
+        <a href="https://linkedin.com/in/Deependra-verma" class="social-btn" target="_blank">🔗 LinkedIn</a>
+        <a href="https://github.com/Deependra-verma" class="social-btn" target="_blank">🐙 GitHub</a>
+        <a href="CV.pdf" class="social-btn" download>📄 Download CV</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="contact-form" id="contact-form">
+        <div class="form-row">
+          <div class="fg">
+            <label>Your Name</label>
+            <input type="text" placeholder="Priya Sharma" id="f-name"/>
+          </div>
+          <div class="fg">
+            <label>Your Email</label>
+            <input type="email" placeholder="priya@company.com" id="f-email"/>
+          </div>
+        </div>
+        <div class="fg">
+          <label>Subject</label>
+          <input type="text" placeholder="Job Opportunity / Collaboration / Query" id="f-subject"/>
+        </div>
+        <div class="fg">
+          <label>Message</label>
+          <textarea placeholder="Tell me what you have in mind..." id="f-message"></textarea>
+        </div>
+        <button class="btn-send" onclick="handleSubmit()">Send Message →</button>
+      </div>
+      <div class="form-success" id="form-success">
+        <div style="font-size:2rem;margin-bottom:0.75rem;">✅</div>
+        <div style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;color:#fff;margin-bottom:0.5rem;">Message sent!</div>
+        <div style="font-size:0.88rem;color:rgba(255,255,255,0.5);">Thank you for reaching out. I'll get back to you within 24 hours.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <p>© 2026 <span>Deependra Verma</span> · IIT Kanpur B.Tech 2025 · Built with purpose · India</p>
+</footer>
+
+<script>
+  /* Typing animation removed */
+
+  /* ── Scroll fade-up ── */
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) setTimeout(() => e.target.classList.add('visible'), i * 80);
+    });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  /* ── Active nav ── */
+  const sections = document.querySelectorAll('section[id]');
+  const navAs = document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll', () => {
+    let cur = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 80) cur = s.id; });
+    navAs.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + cur));
+  });
+
+  /* ── Contact form ── */
+  function handleSubmit() {
+    const n = document.getElementById('f-name').value.trim();
+    const e = document.getElementById('f-email').value.trim();
+    const m = document.getElementById('f-message').value.trim();
+    if (!n || !e || !m) { alert('Please fill in your name, email, and message.'); return; }
+    document.getElementById('contact-form').style.display = 'none';
+    document.getElementById('form-success').classList.add('show');
+  }
+</script>
+</body>
+</html>
